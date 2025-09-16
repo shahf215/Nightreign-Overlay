@@ -65,10 +65,16 @@ jobs:
       - name: Generate SHA256 checksums
         shell: pwsh
         run: |
+          $ErrorActionPreference = 'Stop'
           Set-Location dist
-          Get-ChildItem -Include *.exe, *.zip -File | ForEach-Object {
-            (Get-FileHash $_.FullName -Algorithm SHA256).Hash + "  " + $_.Name
-          } | Out-File -Encoding ASCII SHA256SUMS.txt
+          # Pick up .exe and .zip reliably
+          $files = Get-ChildItem -Path . -File | Where-Object { $_.Extension -in '.exe', '.zip' }
+          if (-not $files) { throw "No artifacts found (.exe/.zip) in dist" }
+          $lines = $files | ForEach-Object {
+            (Get-FileHash -Algorithm SHA256 $_.FullName).Hash + "  " + $_.Name
+          }
+          Set-Content -Path SHA256SUMS.txt -Value $lines -Encoding ASCII
+          Get-Content SHA256SUMS.txt
 
       - name: Upload artifacts to workflow run (for CI downloads)
         uses: actions/upload-artifact@v4
@@ -118,8 +124,12 @@ jobs:
             Verify your download with the checksums in `SHA256SUMS.txt`.
 
             _This app does not inject, patch, or read game memory. It runs as a transparent desktop overlay and listens for hotkeys._
+          draft: false                
           prerelease: ${{ github.event.inputs.prerelease == 'true' }}
+          make_latest: true             
+          overwrite_files: true
           files: |
             dist/*.exe
             dist/*.zip
             dist/SHA256SUMS.txt
+
