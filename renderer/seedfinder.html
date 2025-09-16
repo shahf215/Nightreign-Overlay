@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Seed Finder</title>
+    <style>
+      body {
+        margin: 0;
+        background: #0b0e11;
+        color: #e2e8f0;
+        font:
+          13px ui-sans-serif,
+          system-ui;
+      }
+      .wrap {
+        display: flex;
+        min-height: 100vh;
+      }
+      .panel {
+        padding: 16px;
+      }
+      .btns {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-top: 6px;
+      }
+      .btns button {
+        background: #1f2937;
+        color: #e5e7eb;
+        border: 1px solid #374151;
+        border-radius: 6px;
+        padding: 6px 10px;
+        cursor: pointer;
+      }
+      .btns button.active {
+        background: #2563eb;
+        border-color: #1d4ed8;
+      }
+      .hint {
+        color: #9ca3af;
+      }
+      ul#cand {
+        margin: 6px 0 0 18px;
+        padding: 0;
+      }
+      canvas {
+        background: #0b0e11;
+        image-rendering: crisp-edges;
+        image-rendering: pixelated;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <div class="panel" style="min-width: 230px; padding-top: 20px; padding-bottom: 20px">
+        <div><b>Choose Nightlord</b></div>
+        <div class="btns" id="nlBtns"></div>
+
+        <div style="margin-top: 10px"><b>Choose Shifting Earth</b></div>
+        <div class="btns" id="mapBtns"></div>
+
+        <hr />
+        <div class="hint">
+          Left click: <b>Church</b> • Right click: <b>Sorcerer's Rise</b> • Middle click: <b>?</b>
+        </div>
+
+        <div style="margin-top: 10px"><b>Status</b></div>
+        <div id="status" class="hint">Pick a Nightlord & Map.</div>
+
+        <div style="margin-top: 10px"><b>Candidates</b> <span id="count"></span></div>
+        <ul id="cand"></ul>
+
+        <div style="margin-top: 10px">
+          <button id="reset">Reset</button>
+          <button id="send" disabled>Send to Overlay</button>
+        </div>
+      </div>
+
+      <div
+        class="panel"
+        style="
+          flex: 1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        "
+      >
+        <canvas id="mapCanvas" width="768" height="768"></canvas>
+      </div>
+    </div>
+    <script src="./seedfinder.constants.js"></script>
+    <script src="./uv_runtime.js"></script>
+    <script src="./seedfinder.js"></script>
+  </body>
+</html>

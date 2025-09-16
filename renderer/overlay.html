@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Overlay</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        background: transparent;
+        overflow: hidden;
+      }
+
+      #c {
+        position: fixed;
+        inset: 0;
+      }
+
+      #hud {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        color: #e2e8f0;
+        font: 13px ui-sans-serif;
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+      }
+
+      .tag {
+        background: rgba(0, 0, 0, 0.35);
+        padding: 4px 8px;
+        border-radius: 8px;
+        margin-bottom: 6px;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <canvas id="c"></canvas>
+    <div id="hud">
+      <div class="tag" id="mode">Mode: Idle</div>
+      <div class="tag" id="status"></div>
+    </div>
+    <script src="./input/gamepad.js"></script>
+    <script src="./uv_runtime.js"></script>
+    <script src="./overlay.js"></script>
+  </body>
+</html>

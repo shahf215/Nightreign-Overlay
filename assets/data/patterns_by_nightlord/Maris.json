@@ -1,0 +1,6620 @@
+[
+  {
+    "layout_number": "121",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 30,
+        "value": "Church - Normal",
+        "location": "Lake"
+      },
+      {
+        "poi_id": 32,
+        "value": "Church - Normal",
+        "location": "Stormhill South of Gate"
+      },
+      {
+        "poi_id": 36,
+        "value": "Church - Normal",
+        "location": "Below Summonwater Hawk"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 33,
+        "value": "Sorcerer's Rise - Pool Reflection",
+        "location": "West of Warmaster's Shack"
+      },
+      {
+        "poi_id": 29,
+        "value": "Sorcerer's Rise - Unlit Candle",
+        "location": "East of Cavalry Bridge"
+      }
+    ],
+    "night1": {
+      "circle_location": "South Lake",
+      "boss": "Gaping Dragon",
+      "poi_id": 93
+    },
+    "night2": {
+      "circle_location": "West Stormhill Graveyard",
+      "boss": "Godskin Duo",
+      "poi_id": 176
+    },
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Nox Warriors",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Omen",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Dragonkin Soldier",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Stoneskin Lords",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Banished Knights",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Beastmen of Farum Azula",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Crucible Knight with Sword",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Bell Bearing Hunter",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Grafted Scion",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Draconic Tree Sentinel",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Black Knife Assassin",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Golden Hippopotamus",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Royal Revenant",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Royal Carian Knight",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Miranda Blossom",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Ancient Hero of Zamor",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Tree Sentinel",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Red Wolf",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Banished Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "122",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 30,
+        "value": "Church - Normal",
+        "location": "Lake"
+      },
+      {
+        "poi_id": 32,
+        "value": "Church - Normal",
+        "location": "Stormhill South of Gate"
+      },
+      {
+        "poi_id": 36,
+        "value": "Church - Normal",
+        "location": "Below Summonwater Hawk"
+      },
+      {
+        "poi_id": 35,
+        "value": "Church - Rats",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 33,
+        "value": "Sorcerer's Rise - Windy Trees",
+        "location": "West of Warmaster's Shack"
+      },
+      {
+        "poi_id": 29,
+        "value": "Sorcerer's Rise - Withered Trees",
+        "location": "East of Cavalry Bridge"
+      },
+      {
+        "poi_id": 37,
+        "value": "Sorcerer's Rise - Missing Statue",
+        "location": "Third Church"
+      }
+    ],
+    "night1": {
+      "circle_location": "West Stormhill Graveyard",
+      "boss": "Valiant Gargoyle",
+      "poi_id": 176
+    },
+    "night2": {
+      "circle_location": "Northeast Corner",
+      "boss": "Tree Sentinel and Royal Cavalrymen",
+      "poi_id": 177
+    },
+    "special_events": [
+      {
+        "event": "Day 1 Gnoster Plague",
+        "night": 1,
+        "location": null,
+        "poi_id": 214
+      }
+    ],
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Banished Knights",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Beastly Brigade",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Nox Warriors",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Stoneskin Lords",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Crucible Knight with Spear",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Crucible Knight with Sword",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Omen",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Draconic Tree Sentinel",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Golden Hippopotamus",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Flying Dragon",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Red Wolf",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Ancient Hero of Zamor",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Elder Lion",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Erdtree Avatar",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Miranda Blossom",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Demi-Human Queen",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Magma Wyrm",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Grafted Scion",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Crucible Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "123",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 31,
+        "value": "Church - Normal",
+        "location": "Far Southwest"
+      },
+      {
+        "poi_id": 30,
+        "value": "Church - Normal",
+        "location": "Lake"
+      },
+      {
+        "poi_id": 28,
+        "value": "Church - Rats",
+        "location": "Southeast of Lake"
+      },
+      {
+        "poi_id": 37,
+        "value": "Church - Normal",
+        "location": "Third Church"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 36,
+        "value": "Sorcerer's Rise - Pool Reflection",
+        "location": "Below Summonwater Hawk"
+      },
+      {
+        "poi_id": 35,
+        "value": "Sorcerer's Rise - Unlit Candle",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "night1": {
+      "circle_location": "Southwest Mistwood",
+      "boss": "Wormface",
+      "poi_id": 186
+    },
+    "night2": {
+      "circle_location": "Northwest of Castle",
+      "boss": "Godskin Duo",
+      "poi_id": 183
+    },
+    "special_events": [
+      {
+        "event": "Day 2 Gnoster Plague",
+        "night": 2,
+        "location": null,
+        "poi_id": 214
+      }
+    ],
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Beastly Brigade",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Grave Warden Duelist",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Crucible Knight with Sword",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Banished Knights",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Nox Warriors",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Stoneskin Lords",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Dragonkin Soldier",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Golden Hippopotamus",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Flying Dragon",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Draconic Tree Sentinel",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Bell Bearing Hunter",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Night's Cavalry",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Red Wolf",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Miranda Blossom",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Magma Wyrm",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Grafted Scion",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Elder Lion",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Ancient Hero of Zamor",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Banished Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "124",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 31,
+        "value": "Church - Rats",
+        "location": "Far Southwest"
+      },
+      {
+        "poi_id": 30,
+        "value": "Church - Normal",
+        "location": "Lake"
+      },
+      {
+        "poi_id": 33,
+        "value": "Church - Normal",
+        "location": "West of Warmaster's Shack"
+      },
+      {
+        "poi_id": 35,
+        "value": "Church - Normal",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 29,
+        "value": "Sorcerer's Rise - Unlit Candle",
+        "location": "East of Cavalry Bridge"
+      },
+      {
+        "poi_id": 36,
+        "value": "Sorcerer's Rise - Above Door",
+        "location": "Below Summonwater Hawk"
+      }
+    ],
+    "night1": {
+      "circle_location": "East of Saintsbridge",
+      "boss": "Gaping Dragon",
+      "poi_id": 182
+    },
+    "night2": {
+      "circle_location": "Northwest Corner",
+      "boss": "Tree Sentinel and Royal Cavalrymen",
+      "poi_id": 178
+    },
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Grave Warden Duelist",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Stoneskin Lords",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Beastly Brigade",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Nox Warriors",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Crucible Knight with Spear",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Crystalians",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Crucible Knight with Sword",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Black Blade Kindred",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Flying Dragon",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Black Knife Assassin",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Demi-Human Queen",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Red Wolf",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Grafted Scion",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Magma Wyrm",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Royal Carian Knight",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Golden Hippopotamus",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Elder Lion",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Ancestor Spirit",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Bell Bearing Hunter",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Trolls",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "125",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 34,
+        "value": "Church - Normal",
+        "location": "Above Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 28,
+        "value": "Church - Normal",
+        "location": "Southeast of Lake"
+      },
+      {
+        "poi_id": 29,
+        "value": "Church - Normal",
+        "location": "East of Cavalry Bridge"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 31,
+        "value": "Sorcerer's Rise - Fake Building",
+        "location": "Far Southwest"
+      },
+      {
+        "poi_id": 32,
+        "value": "Sorcerer's Rise - Withered Trees",
+        "location": "Stormhill South of Gate"
+      },
+      {
+        "poi_id": 37,
+        "value": "Sorcerer's Rise - Above Door",
+        "location": "Third Church"
+      }
+    ],
+    "night1": {
+      "circle_location": "Southwest Corner",
+      "boss": "Wormface",
+      "poi_id": 180
+    },
+    "night2": {
+      "circle_location": "Southwest Mistwood",
+      "boss": "Fallingstar Beast",
+      "poi_id": 186
+    },
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Crystalians",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Crucible Knight with Spear",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Beastly Brigade",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Omen",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Godskin Noble",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Banished Knights",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Stoneskin Lords",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Tree Sentinel",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Elder Lion",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Royal Carian Knight",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Draconic Tree Sentinel",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Miranda Blossom",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Magma Wyrm",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Red Wolf",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Black Knife Assassin",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Grafted Scion",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Royal Revenant",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Leonine Misbegotten",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Banished Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "126",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 33,
+        "value": "Church - Normal",
+        "location": "West of Warmaster's Shack"
+      },
+      {
+        "poi_id": 28,
+        "value": "Church - Normal",
+        "location": "Southeast of Lake"
+      },
+      {
+        "poi_id": 106,
+        "value": "Church - Normal",
+        "location": "Minor Erdtree"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 30,
+        "value": "Sorcerer's Rise - Fog Door",
+        "location": "Lake"
+      },
+      {
+        "poi_id": 34,
+        "value": "Sorcerer's Rise - Imp Statue",
+        "location": "Above Stormhill Tunnel Entrance"
+      }
+    ],
+    "night1": {
+      "circle_location": "Northeast of Lake",
+      "boss": "Smelter Demon",
+      "poi_id": 184
+    },
+    "night2": {
+      "circle_location": "Northwest Corner",
+      "boss": "Fallingstar Beast",
+      "poi_id": 178
+    },
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Omen",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Crucible Knight with Spear",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Stoneskin Lords",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Dragonkin Soldier",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Crystalians",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Beastly Brigade",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Bloodhound Knight",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Black Knife Assassin",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Bell Bearing Hunter",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Demi-Human Queen",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Erdtree Avatar",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Golden Hippopotamus",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Miranda Blossom",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Night's Cavalry",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Draconic Tree Sentinel",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Death Rite Bird",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Royal Revenant",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Grafted Scion",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Crucible Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "127",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 33,
+        "value": "Church - Normal",
+        "location": "West of Warmaster's Shack"
+      },
+      {
+        "poi_id": 29,
+        "value": "Church - Normal",
+        "location": "East of Cavalry Bridge"
+      },
+      {
+        "poi_id": 37,
+        "value": "Church - Normal",
+        "location": "Third Church"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 106,
+        "value": "Sorcerer's Rise - Fake Building",
+        "location": "Minor Erdtree"
+      },
+      {
+        "poi_id": 35,
+        "value": "Sorcerer's Rise - Above Door",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "night1": {
+      "circle_location": "South Lake",
+      "boss": "Valiant Gargoyle",
+      "poi_id": 93
+    },
+    "night2": {
+      "circle_location": "West Stormhill Graveyard",
+      "boss": "Tree Sentinel and Royal Cavalrymen",
+      "poi_id": 176
+    },
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Beastly Brigade",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Stoneskin Lords",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Godskin Noble",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Crystalians",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Dragonkin Soldier",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Bloodhound Knight",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Grave Warden Duelist",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Draconic Tree Sentinel",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Golden Hippopotamus",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Erdtree Avatar",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Ancient Hero of Zamor",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Royal Carian Knight",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Demi-Human Queen",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Ancestor Spirit",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Miranda Blossom",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Elder Lion",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Black Knife Assassin",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Royal Revenant",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Trolls",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "128",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 33,
+        "value": "Church - Normal",
+        "location": "West of Warmaster's Shack"
+      },
+      {
+        "poi_id": 29,
+        "value": "Church - Normal",
+        "location": "East of Cavalry Bridge"
+      },
+      {
+        "poi_id": 106,
+        "value": "Church - Normal",
+        "location": "Minor Erdtree"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 31,
+        "value": "Sorcerer's Rise - Pool Reflection",
+        "location": "Far Southwest"
+      },
+      {
+        "poi_id": 32,
+        "value": "Sorcerer's Rise - Missing Statue",
+        "location": "Stormhill South of Gate"
+      }
+    ],
+    "night1": {
+      "circle_location": "East of Saintsbridge",
+      "boss": "Grafted Monarch",
+      "poi_id": 182
+    },
+    "night2": {
+      "circle_location": "Northwest Lake",
+      "boss": "Fallingstar Beast",
+      "poi_id": 185
+    },
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Beastly Brigade",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Crucible Knight with Sword",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Nox Warriors",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Beastmen of Farum Azula",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Godskin Noble",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Stoneskin Lords",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Crystalians",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Tree Sentinel",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Death Rite Bird",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Miranda Blossom",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Black Knife Assassin",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Royal Revenant",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Leonine Misbegotten",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Draconic Tree Sentinel",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Elder Lion",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Royal Carian Knight",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Demi-Human Queen",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Grafted Scion",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Crucible Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "129",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 30,
+        "value": "Church - Normal",
+        "location": "Lake"
+      },
+      {
+        "poi_id": 33,
+        "value": "Church - Normal",
+        "location": "West of Warmaster's Shack"
+      },
+      {
+        "poi_id": 29,
+        "value": "Church - Normal",
+        "location": "East of Cavalry Bridge"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 34,
+        "value": "Sorcerer's Rise - Pool Reflection",
+        "location": "Above Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 106,
+        "value": "Sorcerer's Rise - Fake Building",
+        "location": "Minor Erdtree"
+      }
+    ],
+    "night1": {
+      "circle_location": "Southwest Mistwood",
+      "boss": "Smelter Demon",
+      "poi_id": 186
+    },
+    "night2": {
+      "circle_location": "Northwest of Castle",
+      "boss": "Tree Sentinel and Royal Cavalrymen",
+      "poi_id": 183
+    },
+    "special_events": [
+      {
+        "event": "Walking Mausoleum",
+        "night": null,
+        "location": null,
+        "poi_id": 214
+      }
+    ],
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Crucible Knight with Sword",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Crystalians",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Crucible Knight with Spear",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Banished Knights",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Grave Warden Duelist",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Beastmen of Farum Azula",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Stoneskin Lords",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Erdtree Avatar",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Leonine Misbegotten",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Death Rite Bird",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Elder Lion",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Royal Revenant",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Black Blade Kindred",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Grafted Scion",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Miranda Blossom",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Magma Wyrm",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Red Wolf",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Royal Carian Knight",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Bell Bearing Hunter",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Crucible Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "130",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 30,
+        "value": "Church - Normal",
+        "location": "Lake"
+      },
+      {
+        "poi_id": 32,
+        "value": "Church - Normal",
+        "location": "Stormhill South of Gate"
+      },
+      {
+        "poi_id": 36,
+        "value": "Church - Normal",
+        "location": "Below Summonwater Hawk"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 31,
+        "value": "Sorcerer's Rise - Imp Statue",
+        "location": "Far Southwest"
+      },
+      {
+        "poi_id": 28,
+        "value": "Sorcerer's Rise - Above Door",
+        "location": "Southeast of Lake"
+      },
+      {
+        "poi_id": 35,
+        "value": "Sorcerer's Rise - Unlit Candle",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "night1": {
+      "circle_location": "Northwest Mistwood Pond",
+      "boss": "Grafted Monarch",
+      "poi_id": 181
+    },
+    "night2": {
+      "circle_location": "Northwest Lake",
+      "boss": "Tree Sentinel and Royal Cavalrymen",
+      "poi_id": 185
+    },
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Crystalians",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Grave Warden Duelist",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Crucible Knight with Spear",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Stoneskin Lords",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Nox Warriors",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Godskin Apostle",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Beastmen of Farum Azula",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Black Blade Kindred",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Leonine Misbegotten",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Death Rite Bird",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Royal Revenant",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Golden Hippopotamus",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Grafted Scion",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Bell Bearing Hunter",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Miranda Blossom",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Elder Lion",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Magma Wyrm",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Black Knife Assassin",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Trolls",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "131",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 30,
+        "value": "Church - Normal",
+        "location": "Lake"
+      },
+      {
+        "poi_id": 106,
+        "value": "Church - Normal",
+        "location": "Minor Erdtree"
+      },
+      {
+        "poi_id": 35,
+        "value": "Church - Normal",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 31,
+        "value": "Sorcerer's Rise - Above Door",
+        "location": "Far Southwest"
+      }
+    ],
+    "night1": {
+      "circle_location": "Northwest Lake",
+      "boss": "Smelter Demon",
+      "poi_id": 185
+    },
+    "night2": {
+      "circle_location": "Northwest Corner",
+      "boss": "Fallingstar Beast",
+      "poi_id": 178
+    },
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Godskin Noble",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Grave Warden Duelist",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Banished Knights",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Crucible Knight with Spear",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Beastly Brigade",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Bloodhound Knight",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Godskin Duo",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Black Blade Kindred",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Leonine Misbegotten",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Magma Wyrm",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Golden Hippopotamus",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Night's Cavalry",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Grafted Scion",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Royal Carian Knight",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Red Wolf",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Erdtree Avatar",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Elder Lion",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Bell Bearing Hunter",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Black Knife Assassin",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Trolls",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "132",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 30,
+        "value": "Church - Normal",
+        "location": "Lake"
+      },
+      {
+        "poi_id": 29,
+        "value": "Church - Normal",
+        "location": "East of Cavalry Bridge"
+      },
+      {
+        "poi_id": 36,
+        "value": "Church - Rats",
+        "location": "Below Summonwater Hawk"
+      },
+      {
+        "poi_id": 35,
+        "value": "Church - Normal",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 32,
+        "value": "Sorcerer's Rise - Withered Trees",
+        "location": "Stormhill South of Gate"
+      },
+      {
+        "poi_id": 34,
+        "value": "Sorcerer's Rise - Fog Door",
+        "location": "Above Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 28,
+        "value": "Sorcerer's Rise - Windy Trees",
+        "location": "Southeast of Lake"
+      }
+    ],
+    "night1": {
+      "circle_location": "Northwest Mistwood Pond",
+      "boss": "Gaping Dragon",
+      "poi_id": 181
+    },
+    "night2": {
+      "circle_location": "West Stormhill Graveyard",
+      "boss": "Fallingstar Beast",
+      "poi_id": 176
+    },
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Stoneskin Lords",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Beastmen of Farum Azula",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Crucible Knight with Spear",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Banished Knights",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Omen",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Godskin Noble",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Crystalians",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Death Rite Bird",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Bell Bearing Hunter",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Night's Cavalry",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Leonine Misbegotten",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Grafted Scion",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Royal Revenant",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Draconic Tree Sentinel",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Erdtree Avatar",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Golden Hippopotamus",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Red Wolf",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Tree Sentinel",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Ancient Hero of Zamor",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Banished Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "133",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 28,
+        "value": "Church - Normal",
+        "location": "Southeast of Lake"
+      },
+      {
+        "poi_id": 29,
+        "value": "Church - Normal",
+        "location": "East of Cavalry Bridge"
+      },
+      {
+        "poi_id": 35,
+        "value": "Church - Normal",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 32,
+        "value": "Sorcerer's Rise - Withered Trees",
+        "location": "Stormhill South of Gate"
+      },
+      {
+        "poi_id": 34,
+        "value": "Sorcerer's Rise - Pool Reflection",
+        "location": "Above Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 106,
+        "value": "Sorcerer's Rise - Fleeing Stump",
+        "location": "Minor Erdtree"
+      }
+    ],
+    "night1": {
+      "circle_location": "West Stormhill Graveyard",
+      "boss": "Smelter Demon",
+      "poi_id": 176
+    },
+    "night2": {
+      "circle_location": "Northwest Mistwood Pond",
+      "boss": "Godskin Duo",
+      "poi_id": 181
+    },
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Crystalians",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Dragonkin Soldier",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Crucible Knight with Sword",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Nox Warriors",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Grave Warden Duelist",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Ancient Dragon",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Beastly Brigade",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Black Blade Kindred",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Ancient Hero of Zamor",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Magma Wyrm",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Elder Lion",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Black Knife Assassin",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Miranda Blossom",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Tree Sentinel",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Grafted Scion",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Bell Bearing Hunter",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Night's Cavalry",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Ancestor Spirit",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Red Wolf",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Trolls",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "134",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 30,
+        "value": "Church - Normal",
+        "location": "Lake"
+      },
+      {
+        "poi_id": 32,
+        "value": "Church - Normal",
+        "location": "Stormhill South of Gate"
+      },
+      {
+        "poi_id": 36,
+        "value": "Church - Normal",
+        "location": "Below Summonwater Hawk"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 34,
+        "value": "Sorcerer's Rise - Imp Statue",
+        "location": "Above Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 28,
+        "value": "Sorcerer's Rise - Fleeing Stump",
+        "location": "Southeast of Lake"
+      }
+    ],
+    "night1": {
+      "circle_location": "East of Saintsbridge",
+      "boss": "Valiant Gargoyle",
+      "poi_id": 182
+    },
+    "night2": {
+      "circle_location": "South of Castle Night Circle",
+      "boss": "Fallingstar Beast",
+      "poi_id": 187
+    },
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Grave Warden Duelist",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Bloodhound Knight",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Nox Warriors",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Godskin Noble",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Banished Knights",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Crucible Knight with Sword",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Beastmen of Farum Azula",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Death Rite Bird",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Draconic Tree Sentinel",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Red Wolf",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Magma Wyrm",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Miranda Blossom",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Bell Bearing Hunter",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Night's Cavalry",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Black Knife Assassin",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Elder Lion",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Demi-Human Queen",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Erdtree Avatar",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Royal Revenant",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Trolls",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "135",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 32,
+        "value": "Church - Normal",
+        "location": "Stormhill South of Gate"
+      },
+      {
+        "poi_id": 34,
+        "value": "Church - Normal",
+        "location": "Above Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 35,
+        "value": "Church - Normal",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 30,
+        "value": "Sorcerer's Rise - Pool Reflection",
+        "location": "Lake"
+      }
+    ],
+    "night1": {
+      "circle_location": "Northeast of Lake",
+      "boss": "Wormface",
+      "poi_id": 184
+    },
+    "night2": {
+      "circle_location": "Southwest Corner",
+      "boss": "Tree Sentinel and Royal Cavalrymen",
+      "poi_id": 180
+    },
+    "special_events": [
+      {
+        "event": "Walking Mausoleum",
+        "night": null,
+        "location": null,
+        "poi_id": 214
+      }
+    ],
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Grave Warden Duelist",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Dragonkin Soldier",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Bloodhound Knight",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Crucible Knight with Spear",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Beastly Brigade",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Crystalians",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Stoneskin Lords",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Magma Wyrm",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Bell Bearing Hunter",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Elder Lion",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Ancestor Spirit",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Erdtree Avatar",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Royal Revenant",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Black Knife Assassin",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Red Wolf",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Night's Cavalry",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Black Blade Kindred",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Leonine Misbegotten",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Grafted Scion",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Crucible Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "136",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 32,
+        "value": "Church - Normal",
+        "location": "Stormhill South of Gate"
+      },
+      {
+        "poi_id": 29,
+        "value": "Church - Normal",
+        "location": "East of Cavalry Bridge"
+      },
+      {
+        "poi_id": 35,
+        "value": "Church - Normal",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 30,
+        "value": "Sorcerer's Rise - Missing Statue",
+        "location": "Lake"
+      },
+      {
+        "poi_id": 106,
+        "value": "Sorcerer's Rise - Windy Trees",
+        "location": "Minor Erdtree"
+      }
+    ],
+    "night1": {
+      "circle_location": "Northwest Lake",
+      "boss": "Gaping Dragon",
+      "poi_id": 185
+    },
+    "night2": {
+      "circle_location": "Northeast Corner",
+      "boss": "Fallingstar Beast",
+      "poi_id": 177
+    },
+    "special_events": [
+      {
+        "event": "Day 1 Night Horde",
+        "night": 1,
+        "location": null,
+        "poi_id": 214
+      }
+    ],
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Stoneskin Lords",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Bloodhound Knight",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Godskin Noble",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Omen",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Godskin Apostle",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Crystalians",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Beastmen of Farum Azula",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Tree Sentinel",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Elder Lion",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Ancient Hero of Zamor",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Flying Dragon",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Golden Hippopotamus",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Ancestor Spirit",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Night's Cavalry",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Red Wolf",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Draconic Tree Sentinel",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Miranda Blossom",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Erdtree Avatar",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Grafted Scion",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Trolls",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "137",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 31,
+        "value": "Church - Normal",
+        "location": "Far Southwest"
+      },
+      {
+        "poi_id": 30,
+        "value": "Church - Normal",
+        "location": "Lake"
+      },
+      {
+        "poi_id": 29,
+        "value": "Church - Normal",
+        "location": "East of Cavalry Bridge"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 36,
+        "value": "Sorcerer's Rise - Fake Building",
+        "location": "Below Summonwater Hawk"
+      }
+    ],
+    "night1": {
+      "circle_location": "Northwest Corner",
+      "boss": "Wormface",
+      "poi_id": 178
+    },
+    "night2": {
+      "circle_location": "South of Castle Night Circle",
+      "boss": "Godskin Duo",
+      "poi_id": 187
+    },
+    "special_events": [
+      {
+        "event": "Day 1 Gnoster Plague",
+        "night": 1,
+        "location": null,
+        "poi_id": 214
+      }
+    ],
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Godskin Apostle",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Beastly Brigade",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Bloodhound Knight",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Grave Warden Duelist",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Stoneskin Lords",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Death Rite Bird",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Crucible Knight with Sword",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Magma Wyrm",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Tree Sentinel",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Leonine Misbegotten",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Grafted Scion",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Red Wolf",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Miranda Blossom",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Erdtree Avatar",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Royal Carian Knight",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Demi-Human Queen",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Night's Cavalry",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Death Rite Bird",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Royal Revenant",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Crucible Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "138",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 30,
+        "value": "Church - Normal",
+        "location": "Lake"
+      },
+      {
+        "poi_id": 33,
+        "value": "Church - Normal",
+        "location": "West of Warmaster's Shack"
+      },
+      {
+        "poi_id": 106,
+        "value": "Church - Normal",
+        "location": "Minor Erdtree"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 32,
+        "value": "Sorcerer's Rise - Windy Trees",
+        "location": "Stormhill South of Gate"
+      },
+      {
+        "poi_id": 29,
+        "value": "Sorcerer's Rise - Fleeing Stump",
+        "location": "East of Cavalry Bridge"
+      }
+    ],
+    "night1": {
+      "circle_location": "Northeast Corner",
+      "boss": "Valiant Gargoyle",
+      "poi_id": 177
+    },
+    "night2": {
+      "circle_location": "Northwest Lake",
+      "boss": "Godskin Duo",
+      "poi_id": 185
+    },
+    "special_events": [
+      {
+        "event": "Day 2 Night Horde",
+        "night": 2,
+        "location": null,
+        "poi_id": 214
+      }
+    ],
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Crystalians",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Grave Warden Duelist",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Bloodhound Knight",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Godskin Apostle",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Omen",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Banished Knights",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Dragonkin Soldier",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Bell Bearing Hunter",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Miranda Blossom",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Demi-Human Queen",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Ancient Hero of Zamor",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Erdtree Avatar",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Golden Hippopotamus",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Ancestor Spirit",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Leonine Misbegotten",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Death Rite Bird",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Royal Revenant",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Red Wolf",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Crucible Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "139",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 32,
+        "value": "Church - Normal",
+        "location": "Stormhill South of Gate"
+      },
+      {
+        "poi_id": 29,
+        "value": "Church - Normal",
+        "location": "East of Cavalry Bridge"
+      },
+      {
+        "poi_id": 35,
+        "value": "Church - Normal",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 30,
+        "value": "Sorcerer's Rise - Above Door",
+        "location": "Lake"
+      }
+    ],
+    "night1": {
+      "circle_location": "Northeast Corner",
+      "boss": "Grafted Monarch",
+      "poi_id": 177
+    },
+    "night2": {
+      "circle_location": "Northwest of Castle",
+      "boss": "Godskin Duo",
+      "poi_id": 183
+    },
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Crystalians",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Crucible Knight with Spear",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Godskin Duo",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Omen",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Beastly Brigade",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Godskin Apostle",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Banished Knights",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Tree Sentinel",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Miranda Blossom",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Elder Lion",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Erdtree Avatar",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Black Knife Assassin",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Royal Carian Knight",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Night's Cavalry",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Ancestor Spirit",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Golden Hippopotamus",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Red Wolf",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Black Blade Kindred",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Bell Bearing Hunter",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Crucible Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "140",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 34,
+        "value": "Church - Normal",
+        "location": "Above Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 37,
+        "value": "Church - Normal",
+        "location": "Third Church"
+      },
+      {
+        "poi_id": 35,
+        "value": "Church - Normal",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 33,
+        "value": "Sorcerer's Rise - Imp Statue",
+        "location": "West of Warmaster's Shack"
+      },
+      {
+        "poi_id": 29,
+        "value": "Sorcerer's Rise - Fleeing Stump",
+        "location": "East of Cavalry Bridge"
+      }
+    ],
+    "night1": {
+      "circle_location": "South of Castle",
+      "boss": "Grafted Monarch",
+      "poi_id": 169
+    },
+    "night2": {
+      "circle_location": "Northeast Corner",
+      "boss": "Fallingstar Beast",
+      "poi_id": 177
+    },
+    "special_events": [
+      {
+        "event": "Day 2 Gnoster Plague",
+        "night": 2,
+        "location": null,
+        "poi_id": 214
+      }
+    ],
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Grave Warden Duelist",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Ancient Dragon",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Nox Warriors",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Crucible Knight with Sword",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Dragonkin Soldier",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Beastly Brigade",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Crystalians",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Draconic Tree Sentinel",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Royal Revenant",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Magma Wyrm",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Grafted Scion",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Golden Hippopotamus",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Miranda Blossom",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Death Rite Bird",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Ancient Hero of Zamor",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Royal Carian Knight",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Red Wolf",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Black Blade Kindred",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Leonine Misbegotten",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Banished Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "141",
+    "nightlord": "Maris",
+    "shifting_earth": "Mountaintop",
+    "churches": [
+      {
+        "poi_id": 30,
+        "value": "Church - Normal",
+        "location": "Lake"
+      },
+      {
+        "poi_id": 32,
+        "value": "Church - Normal",
+        "location": "Stormhill South of Gate"
+      },
+      {
+        "poi_id": 37,
+        "value": "Church - Normal",
+        "location": "Third Church"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 106,
+        "value": "Sorcerer's Rise - Missing Statue",
+        "location": "Minor Erdtree"
+      },
+      {
+        "poi_id": 35,
+        "value": "Sorcerer's Rise - Withered Trees",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "night1": {
+      "circle_location": "Southwest Corner",
+      "boss": "Valiant Gargoyle",
+      "poi_id": 180
+    },
+    "night2": {
+      "circle_location": "Southeast Mountaintop",
+      "boss": "Tree Sentinel and Royal Cavalrymen",
+      "poi_id": 212
+    },
+    "special_events": [
+      {
+        "event": "Day 1 Night Horde",
+        "night": 1,
+        "location": null,
+        "poi_id": 214
+      }
+    ],
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Godskin Apostle",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "empty",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "empty",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "empty",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Crystalians",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Bloodhound Knight",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Omen",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 140,
+        "boss": "Flying Dragon"
+      },
+      {
+        "poi_id": 141,
+        "boss": "Ice Dragon"
+      },
+      {
+        "poi_id": 142,
+        "boss": "Ice Dragon"
+      },
+      {
+        "poi_id": 143,
+        "boss": "Demi-Human Swordmaster"
+      },
+      {
+        "poi_id": 144,
+        "boss": "Giant Crows"
+      },
+      {
+        "poi_id": 145,
+        "boss": "Ice Dragon"
+      },
+      {
+        "poi_id": 146,
+        "boss": "Demi-Human Swordmaster"
+      },
+      {
+        "poi_id": 147,
+        "boss": "Ice Dragon"
+      },
+      {
+        "poi_id": 158,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Bell Bearing Hunter",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Miranda Blossom",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "empty",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "empty",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "empty",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "empty",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Royal Carian Knight",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Black Knife Assassin",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Erdtree Avatar",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Demi-Human Queen",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Red Wolf",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Crucible Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "142",
+    "nightlord": "Maris",
+    "shifting_earth": "Mountaintop",
+    "churches": [
+      {
+        "poi_id": 31,
+        "value": "Church - Normal",
+        "location": "Far Southwest"
+      },
+      {
+        "poi_id": 29,
+        "value": "Church - Normal",
+        "location": "East of Cavalry Bridge"
+      },
+      {
+        "poi_id": 106,
+        "value": "Church - Normal",
+        "location": "Minor Erdtree"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 30,
+        "value": "Sorcerer's Rise - Fleeing Stump",
+        "location": "Lake"
+      },
+      {
+        "poi_id": 36,
+        "value": "Sorcerer's Rise - Windy Trees",
+        "location": "Below Summonwater Hawk"
+      }
+    ],
+    "night1": {
+      "circle_location": "Northwest Mistwood Pond",
+      "boss": "Grafted Monarch",
+      "poi_id": 181
+    },
+    "night2": {
+      "circle_location": "Southeast Mountaintop",
+      "boss": "Godskin Duo",
+      "poi_id": 212
+    },
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Crucible Knight with Sword",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "empty",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "empty",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "empty",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Beastmen of Farum Azula",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Crystalians",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Ancient Dragon",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 140,
+        "boss": "Flying Dragon"
+      },
+      {
+        "poi_id": 141,
+        "boss": "Ice Dragon"
+      },
+      {
+        "poi_id": 142,
+        "boss": "Ice Dragon"
+      },
+      {
+        "poi_id": 143,
+        "boss": "Demi-Human Swordmaster"
+      },
+      {
+        "poi_id": 144,
+        "boss": "Giant Crows"
+      },
+      {
+        "poi_id": 145,
+        "boss": "Ice Dragon"
+      },
+      {
+        "poi_id": 146,
+        "boss": "Demi-Human Swordmaster"
+      },
+      {
+        "poi_id": 147,
+        "boss": "Ice Dragon"
+      },
+      {
+        "poi_id": 158,
+        "boss": "Royal Carian Knight",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Royal Revenant",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Draconic Tree Sentinel",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "empty",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "empty",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "empty",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "empty",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Magma Wyrm",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Leonine Misbegotten",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Erdtree Avatar",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Red Wolf",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Black Knife Assassin",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Trolls",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "143",
+    "nightlord": "Maris",
+    "shifting_earth": "Mountaintop",
+    "churches": [
+      {
+        "poi_id": 30,
+        "value": "Church - Normal",
+        "location": "Lake"
+      },
+      {
+        "poi_id": 29,
+        "value": "Church - Normal",
+        "location": "East of Cavalry Bridge"
+      },
+      {
+        "poi_id": 35,
+        "value": "Church - Normal",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 36,
+        "value": "Sorcerer's Rise - Missing Statue",
+        "location": "Below Summonwater Hawk"
+      },
+      {
+        "poi_id": 37,
+        "value": "Sorcerer's Rise - Above Door",
+        "location": "Third Church"
+      }
+    ],
+    "night1": {
+      "circle_location": "Northwest Mistwood Pond",
+      "boss": "Smelter Demon",
+      "poi_id": 181
+    },
+    "night2": {
+      "circle_location": "Southeast Mountaintop",
+      "boss": "Fallingstar Beast",
+      "poi_id": 212
+    },
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Stoneskin Lords",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "empty",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "empty",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "empty",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Godskin Noble",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Crystalians",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Grave Warden Duelist",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 140,
+        "boss": "Flying Dragon"
+      },
+      {
+        "poi_id": 141,
+        "boss": "Ice Dragon"
+      },
+      {
+        "poi_id": 142,
+        "boss": "Ice Dragon"
+      },
+      {
+        "poi_id": 143,
+        "boss": "Demi-Human Swordmaster"
+      },
+      {
+        "poi_id": 144,
+        "boss": "Giant Crows"
+      },
+      {
+        "poi_id": 145,
+        "boss": "Ice Dragon"
+      },
+      {
+        "poi_id": 146,
+        "boss": "Demi-Human Swordmaster"
+      },
+      {
+        "poi_id": 147,
+        "boss": "Ice Dragon"
+      },
+      {
+        "poi_id": 158,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Royal Carian Knight",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Red Wolf",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "empty",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "empty",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "empty",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "empty",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Draconic Tree Sentinel",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Golden Hippopotamus",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Royal Revenant",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Flying Dragon",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Grafted Scion",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Crucible Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "144",
+    "nightlord": "Maris",
+    "shifting_earth": "Mountaintop",
+    "churches": [
+      {
+        "poi_id": 32,
+        "value": "Church - Normal",
+        "location": "Stormhill South of Gate"
+      },
+      {
+        "poi_id": 29,
+        "value": "Church - Normal",
+        "location": "East of Cavalry Bridge"
+      },
+      {
+        "poi_id": 35,
+        "value": "Church - Normal",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 31,
+        "value": "Sorcerer's Rise - Fake Building",
+        "location": "Far Southwest"
+      }
+    ],
+    "night1": {
+      "circle_location": "Northwest Mistwood Pond",
+      "boss": "Wormface",
+      "poi_id": 181
+    },
+    "night2": {
+      "circle_location": "Southeast Mountaintop",
+      "boss": "Tree Sentinel and Royal Cavalrymen",
+      "poi_id": 212
+    },
+    "special_events": [
+      {
+        "event": "Day 2 Gnoster Plague",
+        "night": 2,
+        "location": null,
+        "poi_id": 214
+      }
+    ],
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Banished Knights",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "empty",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "empty",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "empty",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Godskin Apostle",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Grave Warden Duelist",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Nox Warriors",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 140,
+        "boss": "Flying Dragon"
+      },
+      {
+        "poi_id": 141,
+        "boss": "Ice Dragon"
+      },
+      {
+        "poi_id": 142,
+        "boss": "Ice Dragon"
+      },
+      {
+        "poi_id": 143,
+        "boss": "Demi-Human Swordmaster"
+      },
+      {
+        "poi_id": 144,
+        "boss": "Giant Crows"
+      },
+      {
+        "poi_id": 145,
+        "boss": "Ice Dragon"
+      },
+      {
+        "poi_id": 146,
+        "boss": "Demi-Human Swordmaster"
+      },
+      {
+        "poi_id": 147,
+        "boss": "Ice Dragon"
+      },
+      {
+        "poi_id": 158,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Magma Wyrm",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Night's Cavalry",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "empty",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "empty",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "empty",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "empty",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Golden Hippopotamus",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Erdtree Avatar",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Royal Carian Knight",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Leonine Misbegotten",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Bell Bearing Hunter",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Banished Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "145",
+    "nightlord": "Maris",
+    "shifting_earth": "Mountaintop",
+    "churches": [
+      {
+        "poi_id": 30,
+        "value": "Church - Normal",
+        "location": "Lake"
+      },
+      {
+        "poi_id": 32,
+        "value": "Church - Normal",
+        "location": "Stormhill South of Gate"
+      },
+      {
+        "poi_id": 29,
+        "value": "Church - Normal",
+        "location": "East of Cavalry Bridge"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 35,
+        "value": "Sorcerer's Rise - Withered Trees",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "night1": {
+      "circle_location": "Southwest Mistwood",
+      "boss": "Gaping Dragon",
+      "poi_id": 186
+    },
+    "night2": {
+      "circle_location": "Southeast Mountaintop",
+      "boss": "Fallingstar Beast",
+      "poi_id": 212
+    },
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Beastmen of Farum Azula",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "empty",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "empty",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "empty",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Bloodhound Knight",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Stoneskin Lords",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Godskin Apostle",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 140,
+        "boss": "Flying Dragon"
+      },
+      {
+        "poi_id": 141,
+        "boss": "Ice Dragon"
+      },
+      {
+        "poi_id": 142,
+        "boss": "Ice Dragon"
+      },
+      {
+        "poi_id": 143,
+        "boss": "Demi-Human Swordmaster"
+      },
+      {
+        "poi_id": 144,
+        "boss": "Giant Crows"
+      },
+      {
+        "poi_id": 145,
+        "boss": "Ice Dragon"
+      },
+      {
+        "poi_id": 146,
+        "boss": "Demi-Human Swordmaster"
+      },
+      {
+        "poi_id": 147,
+        "boss": "Ice Dragon"
+      },
+      {
+        "poi_id": 158,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Magma Wyrm",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Miranda Blossom",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "empty",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "empty",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "empty",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "empty",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Golden Hippopotamus",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Flying Dragon",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Night's Cavalry",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Draconic Tree Sentinel",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Ancient Hero of Zamor",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Crucible Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "146",
+    "nightlord": "Maris",
+    "shifting_earth": "Crater",
+    "churches": [
+      {
+        "poi_id": 32,
+        "value": "Church - Normal",
+        "location": "Stormhill South of Gate"
+      },
+      {
+        "poi_id": 28,
+        "value": "Church - Normal",
+        "location": "Southeast of Lake"
+      },
+      {
+        "poi_id": 37,
+        "value": "Church - Normal",
+        "location": "Third Church"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 36,
+        "value": "Sorcerer's Rise - Fake Building",
+        "location": "Below Summonwater Hawk"
+      }
+    ],
+    "night1": {
+      "circle_location": "Northwest Mistwood Pond",
+      "boss": "Wormface",
+      "poi_id": 181
+    },
+    "night2": {
+      "circle_location": "North of Crater",
+      "boss": "Godskin Duo",
+      "poi_id": 211
+    },
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Stoneskin Lords",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "empty",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Godskin Noble",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "empty",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Banished Knights",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Beastly Brigade",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "empty",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 132,
+        "boss": "Red Wolf"
+      },
+      {
+        "poi_id": 133,
+        "boss": "Demi-Human Queen"
+      },
+      {
+        "poi_id": 134,
+        "boss": "Fire Prelates"
+      },
+      {
+        "poi_id": 135,
+        "boss": "Demi-Human Queen"
+      },
+      {
+        "poi_id": 136,
+        "boss": "Magma Wyrm"
+      },
+      {
+        "poi_id": 137,
+        "boss": "Fallingstar Beast"
+      },
+      {
+        "poi_id": 138,
+        "boss": "Valiant Gargoyle"
+      },
+      {
+        "poi_id": 158,
+        "boss": "Royal Carian Knight",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Royal Revenant",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Draconic Tree Sentinel",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Leonine Misbegotten",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "empty",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "empty",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Flying Dragon",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Black Blade Kindred",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Golden Hippopotamus",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "empty",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "empty",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Black Knife Assassin",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Banished Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "147",
+    "nightlord": "Maris",
+    "shifting_earth": "Crater",
+    "churches": [
+      {
+        "poi_id": 31,
+        "value": "Church - Normal",
+        "location": "Far Southwest"
+      },
+      {
+        "poi_id": 30,
+        "value": "Church - Normal",
+        "location": "Lake"
+      },
+      {
+        "poi_id": 33,
+        "value": "Church - Normal",
+        "location": "West of Warmaster's Shack"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 32,
+        "value": "Sorcerer's Rise - Missing Statue",
+        "location": "Stormhill South of Gate"
+      },
+      {
+        "poi_id": 36,
+        "value": "Sorcerer's Rise - Unlit Candle",
+        "location": "Below Summonwater Hawk"
+      }
+    ],
+    "night1": {
+      "circle_location": "West Stormhill Graveyard",
+      "boss": "Smelter Demon",
+      "poi_id": 176
+    },
+    "night2": {
+      "circle_location": "North of Crater",
+      "boss": "Fallingstar Beast",
+      "poi_id": 211
+    },
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Crucible Knight with Spear",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "empty",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Nox Warriors",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "empty",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Beastmen of Farum Azula",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Crystalians",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "empty",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 132,
+        "boss": "Red Wolf"
+      },
+      {
+        "poi_id": 133,
+        "boss": "Demi-Human Queen"
+      },
+      {
+        "poi_id": 134,
+        "boss": "Fire Prelates"
+      },
+      {
+        "poi_id": 135,
+        "boss": "Demi-Human Queen"
+      },
+      {
+        "poi_id": 136,
+        "boss": "Magma Wyrm"
+      },
+      {
+        "poi_id": 137,
+        "boss": "Fallingstar Beast"
+      },
+      {
+        "poi_id": 138,
+        "boss": "Valiant Gargoyle"
+      },
+      {
+        "poi_id": 158,
+        "boss": "Ancestor Spirit",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Royal Revenant",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Flying Dragon",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Erdtree Avatar",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "empty",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "empty",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Night's Cavalry",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Red Wolf",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Tree Sentinel",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "empty",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "empty",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Black Knife Assassin",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Crucible Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "148",
+    "nightlord": "Maris",
+    "shifting_earth": "Crater",
+    "churches": [
+      {
+        "poi_id": 30,
+        "value": "Church - Normal",
+        "location": "Lake"
+      },
+      {
+        "poi_id": 33,
+        "value": "Church - Normal",
+        "location": "West of Warmaster's Shack"
+      },
+      {
+        "poi_id": 106,
+        "value": "Church - Normal",
+        "location": "Minor Erdtree"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 37,
+        "value": "Sorcerer's Rise - Fog Door",
+        "location": "Third Church"
+      }
+    ],
+    "night1": {
+      "circle_location": "South Lake",
+      "boss": "Grafted Monarch",
+      "poi_id": 93
+    },
+    "night2": {
+      "circle_location": "North of Crater",
+      "boss": "Fallingstar Beast",
+      "poi_id": 211
+    },
+    "special_events": [
+      {
+        "event": "Walking Mausoleum",
+        "night": null,
+        "location": null,
+        "poi_id": 214
+      }
+    ],
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Banished Knights",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "empty",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Beastmen of Farum Azula",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "empty",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Dragonkin Soldier",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Bloodhound Knight",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "empty",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 132,
+        "boss": "Red Wolf"
+      },
+      {
+        "poi_id": 133,
+        "boss": "Demi-Human Queen"
+      },
+      {
+        "poi_id": 134,
+        "boss": "Fire Prelates"
+      },
+      {
+        "poi_id": 135,
+        "boss": "Demi-Human Queen"
+      },
+      {
+        "poi_id": 136,
+        "boss": "Magma Wyrm"
+      },
+      {
+        "poi_id": 137,
+        "boss": "Fallingstar Beast"
+      },
+      {
+        "poi_id": 138,
+        "boss": "Valiant Gargoyle"
+      },
+      {
+        "poi_id": 158,
+        "boss": "Magma Wyrm",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Demi-Human Queen",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Bell Bearing Hunter",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Golden Hippopotamus",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "empty",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "empty",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Flying Dragon",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Red Wolf",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "empty",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "empty",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Ancient Hero of Zamor",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Trolls",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "149",
+    "nightlord": "Maris",
+    "shifting_earth": "Crater",
+    "churches": [
+      {
+        "poi_id": 33,
+        "value": "Church - Normal",
+        "location": "West of Warmaster's Shack"
+      },
+      {
+        "poi_id": 28,
+        "value": "Church - Normal",
+        "location": "Southeast of Lake"
+      },
+      {
+        "poi_id": 106,
+        "value": "Church - Normal",
+        "location": "Minor Erdtree"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 30,
+        "value": "Sorcerer's Rise - Imp Statue",
+        "location": "Lake"
+      }
+    ],
+    "night1": {
+      "circle_location": "Northeast Corner",
+      "boss": "Gaping Dragon",
+      "poi_id": 177
+    },
+    "night2": {
+      "circle_location": "North of Crater",
+      "boss": "Tree Sentinel and Royal Cavalrymen",
+      "poi_id": 211
+    },
+    "special_events": [
+      {
+        "event": "Day 1 Gnoster Plague",
+        "night": 1,
+        "location": null,
+        "poi_id": 214
+      }
+    ],
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Bloodhound Knight",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "empty",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Omen",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "empty",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Crystalians",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Dragonkin Soldier",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "empty",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 132,
+        "boss": "Red Wolf"
+      },
+      {
+        "poi_id": 133,
+        "boss": "Demi-Human Queen"
+      },
+      {
+        "poi_id": 134,
+        "boss": "Fire Prelates"
+      },
+      {
+        "poi_id": 135,
+        "boss": "Demi-Human Queen"
+      },
+      {
+        "poi_id": 136,
+        "boss": "Magma Wyrm"
+      },
+      {
+        "poi_id": 137,
+        "boss": "Fallingstar Beast"
+      },
+      {
+        "poi_id": 138,
+        "boss": "Valiant Gargoyle"
+      },
+      {
+        "poi_id": 158,
+        "boss": "Bell Bearing Hunter",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Death Rite Bird",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Golden Hippopotamus",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "empty",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "empty",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Black Knife Assassin",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Black Blade Kindred",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Ancient Hero of Zamor",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "empty",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "empty",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Leonine Misbegotten",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Banished Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "150",
+    "nightlord": "Maris",
+    "shifting_earth": "Crater",
+    "churches": [
+      {
+        "poi_id": 32,
+        "value": "Church - Normal",
+        "location": "Stormhill South of Gate"
+      },
+      {
+        "poi_id": 28,
+        "value": "Church - Normal",
+        "location": "Southeast of Lake"
+      },
+      {
+        "poi_id": 37,
+        "value": "Church - Normal",
+        "location": "Third Church"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 106,
+        "value": "Sorcerer's Rise - Withered Trees",
+        "location": "Minor Erdtree"
+      },
+      {
+        "poi_id": 36,
+        "value": "Sorcerer's Rise - Windy Trees",
+        "location": "Below Summonwater Hawk"
+      }
+    ],
+    "night1": {
+      "circle_location": "West Stormhill Graveyard",
+      "boss": "Valiant Gargoyle",
+      "poi_id": 176
+    },
+    "night2": {
+      "circle_location": "North of Crater",
+      "boss": "Godskin Duo",
+      "poi_id": 211
+    },
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Crystalians",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "empty",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Godskin Noble",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "empty",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Stoneskin Lords",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Omen",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "empty",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 132,
+        "boss": "Red Wolf"
+      },
+      {
+        "poi_id": 133,
+        "boss": "Demi-Human Queen"
+      },
+      {
+        "poi_id": 134,
+        "boss": "Fire Prelates"
+      },
+      {
+        "poi_id": 135,
+        "boss": "Demi-Human Queen"
+      },
+      {
+        "poi_id": 136,
+        "boss": "Magma Wyrm"
+      },
+      {
+        "poi_id": 137,
+        "boss": "Fallingstar Beast"
+      },
+      {
+        "poi_id": 138,
+        "boss": "Valiant Gargoyle"
+      },
+      {
+        "poi_id": 158,
+        "boss": "Tree Sentinel",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Magma Wyrm",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Night's Cavalry",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Black Knife Assassin",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "empty",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "empty",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Erdtree Avatar",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Leonine Misbegotten",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "empty",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "empty",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Ancient Hero of Zamor",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Crucible Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "151",
+    "nightlord": "Maris",
+    "shifting_earth": "Rotted Woods",
+    "churches": [
+      {
+        "poi_id": 31,
+        "value": "Church - Rats",
+        "location": "Far Southwest"
+      },
+      {
+        "poi_id": 30,
+        "value": "Church - Normal",
+        "location": "Lake"
+      },
+      {
+        "poi_id": 33,
+        "value": "Church - Normal",
+        "location": "West of Warmaster's Shack"
+      },
+      {
+        "poi_id": 35,
+        "value": "Church - Normal",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 37,
+        "value": "Sorcerer's Rise - Unlit Candle",
+        "location": "Third Church"
+      }
+    ],
+    "night1": {
+      "circle_location": "Northwest of Castle",
+      "boss": "Wormface",
+      "poi_id": 183
+    },
+    "night2": {
+      "circle_location": "Southeast Rotted Woods",
+      "boss": "Tree Sentinel and Royal Cavalrymen",
+      "poi_id": 213
+    },
+    "special_events": [
+      {
+        "event": "Day 2 Gnoster Plague",
+        "night": 2,
+        "location": null,
+        "poi_id": 214
+      }
+    ],
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Beastmen of Farum Azula",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Godskin Noble",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Banished Knights",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Crucible Knight with Spear",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "empty",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Stoneskin Lords",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Grave Warden Duelist",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Bell Bearing Hunter",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Erdtree Avatar",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Golden Hippopotamus",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Black Knife Assassin",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Night's Cavalry",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Elder Lion",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Grafted Scion",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "empty",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "empty",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Royal Revenant",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Royal Carian Knight",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Red Wolf",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Crucible Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "152",
+    "nightlord": "Maris",
+    "shifting_earth": "Rotted Woods",
+    "churches": [
+      {
+        "poi_id": 31,
+        "value": "Church - Normal",
+        "location": "Far Southwest"
+      },
+      {
+        "poi_id": 30,
+        "value": "Church - Normal",
+        "location": "Lake"
+      },
+      {
+        "poi_id": 35,
+        "value": "Church - Normal",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 36,
+        "value": "Sorcerer's Rise - Above Door",
+        "location": "Below Summonwater Hawk"
+      }
+    ],
+    "night1": {
+      "circle_location": "West Stormhill Graveyard",
+      "boss": "Gaping Dragon",
+      "poi_id": 176
+    },
+    "night2": {
+      "circle_location": "Southeast Rotted Woods",
+      "boss": "Fallingstar Beast",
+      "poi_id": 213
+    },
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Bloodhound Knight",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Nox Warriors",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Grave Warden Duelist",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Crucible Knight with Sword",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "empty",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Crucible Knight with Spear",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Omen",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Black Blade Kindred",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Tree Sentinel",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Leonine Misbegotten",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Golden Hippopotamus",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Royal Carian Knight",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Red Wolf",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Grafted Scion",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "empty",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "empty",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Miranda Blossom",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Night's Cavalry",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Ancient Hero of Zamor",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Crucible Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "153",
+    "nightlord": "Maris",
+    "shifting_earth": "Rotted Woods",
+    "churches": [
+      {
+        "poi_id": 34,
+        "value": "Church - Normal",
+        "location": "Above Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 37,
+        "value": "Church - Normal",
+        "location": "Third Church"
+      },
+      {
+        "poi_id": 35,
+        "value": "Church - Normal",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 32,
+        "value": "Sorcerer's Rise - Unlit Candle",
+        "location": "Stormhill South of Gate"
+      },
+      {
+        "poi_id": 33,
+        "value": "Sorcerer's Rise - Withered Trees",
+        "location": "West of Warmaster's Shack"
+      }
+    ],
+    "night1": {
+      "circle_location": "West Stormhill Graveyard",
+      "boss": "Grafted Monarch",
+      "poi_id": 176
+    },
+    "night2": {
+      "circle_location": "Southeast Rotted Woods",
+      "boss": "Fallingstar Beast",
+      "poi_id": 213
+    },
+    "special_events": [
+      {
+        "event": "Walking Mausoleum",
+        "night": null,
+        "location": null,
+        "poi_id": 214
+      }
+    ],
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Godskin Noble",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Banished Knights",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Nox Warriors",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Beastmen of Farum Azula",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "empty",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Godskin Apostle",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Grave Warden Duelist",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Black Blade Kindred",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Magma Wyrm",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Elder Lion",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Ancient Hero of Zamor",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Tree Sentinel",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Grafted Scion",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Red Wolf",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "empty",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "empty",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Black Knife Assassin",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Leonine Misbegotten",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Royal Revenant",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Crucible Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "154",
+    "nightlord": "Maris",
+    "shifting_earth": "Rotted Woods",
+    "churches": [
+      {
+        "poi_id": 31,
+        "value": "Church - Normal",
+        "location": "Far Southwest"
+      },
+      {
+        "poi_id": 30,
+        "value": "Church - Normal",
+        "location": "Lake"
+      },
+      {
+        "poi_id": 33,
+        "value": "Church - Normal",
+        "location": "West of Warmaster's Shack"
+      },
+      {
+        "poi_id": 36,
+        "value": "Church - Rats",
+        "location": "Below Summonwater Hawk"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 37,
+        "value": "Sorcerer's Rise - Fog Door",
+        "location": "Third Church"
+      },
+      {
+        "poi_id": 35,
+        "value": "Sorcerer's Rise - Fake Building",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "night1": {
+      "circle_location": "Northwest of Castle",
+      "boss": "Smelter Demon",
+      "poi_id": 183
+    },
+    "night2": {
+      "circle_location": "Northwest Rotted Woods",
+      "boss": "Godskin Duo",
+      "poi_id": 150
+    },
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Stoneskin Lords",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Godskin Noble",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Crystalians",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Dragonkin Soldier",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "empty",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Beastmen of Farum Azula",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Beastly Brigade",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Death Rite Bird",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Leonine Misbegotten",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Demi-Human Queen",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Night's Cavalry",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Black Knife Assassin",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Magma Wyrm",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Golden Hippopotamus",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "empty",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "empty",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Ancestor Spirit",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Elder Lion",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Bell Bearing Hunter",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Crucible Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "155",
+    "nightlord": "Maris",
+    "shifting_earth": "Rotted Woods",
+    "churches": [
+      {
+        "poi_id": 31,
+        "value": "Church - Normal",
+        "location": "Far Southwest"
+      },
+      {
+        "poi_id": 33,
+        "value": "Church - Normal",
+        "location": "West of Warmaster's Shack"
+      },
+      {
+        "poi_id": 36,
+        "value": "Church - Normal",
+        "location": "Below Summonwater Hawk"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 35,
+        "value": "Sorcerer's Rise - Fake Building",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "night1": {
+      "circle_location": "West Stormhill Graveyard",
+      "boss": "Valiant Gargoyle",
+      "poi_id": 176
+    },
+    "night2": {
+      "circle_location": "Southeast Rotted Woods",
+      "boss": "Godskin Duo",
+      "poi_id": 213
+    },
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Godskin Noble",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Stoneskin Lords",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Beastly Brigade",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Omen",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "empty",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Godskin Apostle",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Banished Knights",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 158,
+        "boss": "Death Rite Bird",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Erdtree Avatar",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Elder Lion",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Royal Revenant",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Black Knife Assassin",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Red Wolf",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "empty",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "empty",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Night's Cavalry",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Grafted Scion",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Ancient Hero of Zamor",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Crucible Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "156",
+    "nightlord": "Maris",
+    "shifting_earth": "Noklateo",
+    "churches": [
+      {
+        "poi_id": 34,
+        "value": "Church - Normal",
+        "location": "Above Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 28,
+        "value": "Church - Normal",
+        "location": "Southeast of Lake"
+      },
+      {
+        "poi_id": 36,
+        "value": "Church - Normal",
+        "location": "Below Summonwater Hawk"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 29,
+        "value": "Sorcerer's Rise - Fleeing Stump",
+        "location": "East of Cavalry Bridge"
+      },
+      {
+        "poi_id": 37,
+        "value": "Sorcerer's Rise - Unlit Candle",
+        "location": "Third Church"
+      }
+    ],
+    "night1": {
+      "circle_location": "Northeast Corner",
+      "boss": "Grafted Monarch",
+      "poi_id": 177
+    },
+    "night2": {
+      "circle_location": "Noklateo Entrance",
+      "boss": "Godskin Duo",
+      "poi_id": 210
+    },
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "empty",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Godskin Noble",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Banished Knights",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Crystalians",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Beastmen of Farum Azula",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Dragonkin Soldier",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Beastly Brigade",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 123,
+        "boss": "Royal Carian Knight"
+      },
+      {
+        "poi_id": 124,
+        "boss": "Flying Dragon"
+      },
+      {
+        "poi_id": 125,
+        "boss": "Black Knife Assassin"
+      },
+      {
+        "poi_id": 126,
+        "boss": "Headless Troll"
+      },
+      {
+        "poi_id": 127,
+        "boss": "Dragonkin Soldier"
+      },
+      {
+        "poi_id": 128,
+        "boss": "Royal Revenant"
+      },
+      {
+        "poi_id": 129,
+        "boss": "Black Knife Assassin"
+      },
+      {
+        "poi_id": 130,
+        "boss": "Astel"
+      },
+      {
+        "poi_id": 158,
+        "boss": "empty",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "empty",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "empty",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Elder Lion",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Black Knife Assassin",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Night's Cavalry",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Tree Sentinel",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Grafted Scion",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Bell Bearing Hunter",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Miranda Blossom",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "empty",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "empty",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "157",
+    "nightlord": "Maris",
+    "shifting_earth": "Noklateo",
+    "churches": [
+      {
+        "poi_id": 33,
+        "value": "Church - Normal",
+        "location": "West of Warmaster's Shack"
+      },
+      {
+        "poi_id": 36,
+        "value": "Church - Normal",
+        "location": "Below Summonwater Hawk"
+      },
+      {
+        "poi_id": 35,
+        "value": "Church - Normal",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 28,
+        "value": "Sorcerer's Rise - Unlit Candle",
+        "location": "Southeast of Lake"
+      },
+      {
+        "poi_id": 106,
+        "value": "Sorcerer's Rise - Fog Door",
+        "location": "Minor Erdtree"
+      }
+    ],
+    "night1": {
+      "circle_location": "West Stormhill Graveyard",
+      "boss": "Gaping Dragon",
+      "poi_id": 176
+    },
+    "night2": {
+      "circle_location": "Noklateo Entrance",
+      "boss": "Fallingstar Beast",
+      "poi_id": 210
+    },
+    "special_events": [
+      {
+        "event": "Day 2 Night Horde",
+        "night": 2,
+        "location": null,
+        "poi_id": 214
+      }
+    ],
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "empty",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Beastmen of Farum Azula",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Beastly Brigade",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Stoneskin Lords",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Crucible Knight with Sword",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Godskin Noble",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Nox Warriors",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 123,
+        "boss": "Royal Carian Knight"
+      },
+      {
+        "poi_id": 124,
+        "boss": "Flying Dragon"
+      },
+      {
+        "poi_id": 125,
+        "boss": "Black Knife Assassin"
+      },
+      {
+        "poi_id": 126,
+        "boss": "Headless Troll"
+      },
+      {
+        "poi_id": 127,
+        "boss": "Dragonkin Soldier"
+      },
+      {
+        "poi_id": 128,
+        "boss": "Royal Revenant"
+      },
+      {
+        "poi_id": 129,
+        "boss": "Black Knife Assassin"
+      },
+      {
+        "poi_id": 130,
+        "boss": "Astel"
+      },
+      {
+        "poi_id": 158,
+        "boss": "empty",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "empty",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "empty",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Leonine Misbegotten",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Golden Hippopotamus",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Miranda Blossom",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Royal Carian Knight",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Demi-Human Queen",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Bell Bearing Hunter",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Red Wolf",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Magma Wyrm",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "empty",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "empty",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "158",
+    "nightlord": "Maris",
+    "shifting_earth": "Noklateo",
+    "churches": [
+      {
+        "poi_id": 34,
+        "value": "Church - Normal",
+        "location": "Above Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 36,
+        "value": "Church - Normal",
+        "location": "Below Summonwater Hawk"
+      },
+      {
+        "poi_id": 35,
+        "value": "Church - Normal",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 37,
+        "value": "Sorcerer's Rise - Above Door",
+        "location": "Third Church"
+      }
+    ],
+    "night1": {
+      "circle_location": "Northeast Corner",
+      "boss": "Valiant Gargoyle",
+      "poi_id": 177
+    },
+    "night2": {
+      "circle_location": "Noklateo Entrance",
+      "boss": "Tree Sentinel and Royal Cavalrymen",
+      "poi_id": 210
+    },
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "empty",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Grave Warden Duelist",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Godskin Noble",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Nox Warriors",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Stoneskin Lords",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Crucible Knight with Spear",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Beastmen of Farum Azula",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 123,
+        "boss": "Royal Carian Knight"
+      },
+      {
+        "poi_id": 124,
+        "boss": "Flying Dragon"
+      },
+      {
+        "poi_id": 125,
+        "boss": "Black Knife Assassin"
+      },
+      {
+        "poi_id": 126,
+        "boss": "Headless Troll"
+      },
+      {
+        "poi_id": 127,
+        "boss": "Dragonkin Soldier"
+      },
+      {
+        "poi_id": 128,
+        "boss": "Royal Revenant"
+      },
+      {
+        "poi_id": 129,
+        "boss": "Black Knife Assassin"
+      },
+      {
+        "poi_id": 130,
+        "boss": "Astel"
+      },
+      {
+        "poi_id": 158,
+        "boss": "empty",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "empty",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "empty",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Bell Bearing Hunter",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Flying Dragon",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Ancient Hero of Zamor",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Night's Cavalry",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Grafted Scion",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Miranda Blossom",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Demi-Human Queen",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "empty",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "empty",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "159",
+    "nightlord": "Maris",
+    "shifting_earth": "Noklateo",
+    "churches": [
+      {
+        "poi_id": 34,
+        "value": "Church - Normal",
+        "location": "Above Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 28,
+        "value": "Church - Normal",
+        "location": "Southeast of Lake"
+      },
+      {
+        "poi_id": 36,
+        "value": "Church - Normal",
+        "location": "Below Summonwater Hawk"
+      },
+      {
+        "poi_id": 35,
+        "value": "Church - Rats",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 106,
+        "value": "Sorcerer's Rise - Above Door",
+        "location": "Minor Erdtree"
+      },
+      {
+        "poi_id": 37,
+        "value": "Sorcerer's Rise - Fog Door",
+        "location": "Third Church"
+      }
+    ],
+    "night1": {
+      "circle_location": "West Stormhill Graveyard",
+      "boss": "Smelter Demon",
+      "poi_id": 176
+    },
+    "night2": {
+      "circle_location": "Noklateo Entrance",
+      "boss": "Fallingstar Beast",
+      "poi_id": 210
+    },
+    "special_events": [
+      {
+        "event": "Day 1 Gnoster Plague",
+        "night": 1,
+        "location": null,
+        "poi_id": 214
+      }
+    ],
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "empty",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Beastmen of Farum Azula",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Dragonkin Soldier",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Nox Warriors",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Stoneskin Lords",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Omen",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Godskin Apostle",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 123,
+        "boss": "Royal Carian Knight"
+      },
+      {
+        "poi_id": 124,
+        "boss": "Flying Dragon"
+      },
+      {
+        "poi_id": 125,
+        "boss": "Black Knife Assassin"
+      },
+      {
+        "poi_id": 126,
+        "boss": "Headless Troll"
+      },
+      {
+        "poi_id": 127,
+        "boss": "Dragonkin Soldier"
+      },
+      {
+        "poi_id": 128,
+        "boss": "Royal Revenant"
+      },
+      {
+        "poi_id": 129,
+        "boss": "Black Knife Assassin"
+      },
+      {
+        "poi_id": 130,
+        "boss": "Astel"
+      },
+      {
+        "poi_id": 158,
+        "boss": "empty",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "empty",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "empty",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Erdtree Avatar",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Black Knife Assassin",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Ancestor Spirit",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Royal Revenant",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Miranda Blossom",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Royal Carian Knight",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Red Wolf",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Night's Cavalry",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "empty",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "empty",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "160",
+    "nightlord": "Maris",
+    "shifting_earth": "Noklateo",
+    "churches": [
+      {
+        "poi_id": 34,
+        "value": "Church - Normal",
+        "location": "Above Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 106,
+        "value": "Church - Normal",
+        "location": "Minor Erdtree"
+      },
+      {
+        "poi_id": 35,
+        "value": "Church - Normal",
+        "location": "Northeast of Saintsbridge"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 28,
+        "value": "Sorcerer's Rise - Missing Statue",
+        "location": "Southeast of Lake"
+      }
+    ],
+    "night1": {
+      "circle_location": "West Stormhill Graveyard",
+      "boss": "Wormface",
+      "poi_id": 176
+    },
+    "night2": {
+      "circle_location": "Noklateo Entrance",
+      "boss": "Godskin Duo",
+      "poi_id": 210
+    },
+    "extra_night_boss": "empty",
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "empty",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Omen",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Godskin Apostle",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Bloodhound Knight",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Dragonkin Soldier",
+        "location": "East of Lake"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Stoneskin Lords",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Death Rite Bird",
+        "location": "Northeast Tunnel Entrance"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 123,
+        "boss": "Royal Carian Knight"
+      },
+      {
+        "poi_id": 124,
+        "boss": "Flying Dragon"
+      },
+      {
+        "poi_id": 125,
+        "boss": "Black Knife Assassin"
+      },
+      {
+        "poi_id": 126,
+        "boss": "Headless Troll"
+      },
+      {
+        "poi_id": 127,
+        "boss": "Dragonkin Soldier"
+      },
+      {
+        "poi_id": 128,
+        "boss": "Royal Revenant"
+      },
+      {
+        "poi_id": 129,
+        "boss": "Black Knife Assassin"
+      },
+      {
+        "poi_id": 130,
+        "boss": "Astel"
+      },
+      {
+        "poi_id": 158,
+        "boss": "empty",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 85,
+        "boss": "empty",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 84,
+        "boss": "empty",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Royal Revenant",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Miranda Blossom",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Leonine Misbegotten",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Royal Carian Knight",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Night's Cavalry",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Bell Bearing Hunter",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Elder Lion",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 23,
+        "boss": "empty",
+        "location": "Castle Basement"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "empty",
+        "location": "Castle"
+      }
+    ]
+  }
+]

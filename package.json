@@ -1,0 +1,13 @@
+{
+  "name": "nightreign-overlay",
+  "version": "1.0",
+  "private": true,
+  "type": "commonjs",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^38.1.0"
+  }
+}
