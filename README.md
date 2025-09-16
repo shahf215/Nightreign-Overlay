@@ -2,7 +2,6 @@
 
 An Electron-based **seed finder** and **overlay** for *Elden Ring Nightreign*. It lets you quickly narrow seeds/patterns and renders labels on top of the game’s map.
 
-
 ## ✨ Features
 - Seed Finder allows user to quickly narrow down to the correct pattern
 - Each label is anchored to its in game location
@@ -15,12 +14,28 @@ An Electron-based **seed finder** and **overlay** for *Elden Ring Nightreign*. I
 - **Windows 10/11**
 - **Elden Ring Nightreign in Borderless Window mode**
 
-## 🚀 Run
+## Quick Start (Developer Mode)
+- Ideal for debugging and UI tweaks
 ```bash
 npm install
 npm start
 ```
 
+## 🚀 Build a Windows .exe
+- Produces a directory that contains an executable and it's dependencies.
+- Output goes to `dist/win-unpacked`
+```bash
+npm install   # skip if already installed
+npm run dist:win
+```
+
+## 🚀 Build a Windows .exe (Portable but slower)
+- Produces a single-file executable you can copy anywhere and run.
+- Output goes to `dist/`
+```bash
+npm install   # skip if already installed
+npm run dist:dir
+```
 
 ## ⌨️ Keyboard Shortcuts
 - **F8**: Toggle Seed Finder

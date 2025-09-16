@@ -1,13 +1,59 @@
 {
   "name": "nightreign-overlay",
-  "version": "1.0",
+  "version": "1.0.0",
   "private": true,
   "type": "commonjs",
   "main": "electron/main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dist:win": "electron-builder --win portable",
+    "dist:dir": "electron-builder --win dir"
   },
   "devDependencies": {
-    "electron": "^38.1.0"
+    "electron": "^38.1.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.fahid.nightreign.overlay",
+    "productName": "Nightreign Overlay",
+    "electronLanguages": ["en-US"],
+    "compression": "maximum",
+    "asar": true,
+    "asarUnpack": [
+      "assets/data/**",
+      "assets/images/**"
+    ],
+    "files": [
+      "electron/**",
+      "renderer/**",
+      "assets/**",
+      "package.json",
+      "!**/*.map",
+      "!**/*.test.*",
+      "!**/node_modules/**/test/**",
+      "!**/node_modules/**/examples/**",
+      "!**/.git/**",
+      "!**/.github/**",
+      "!**/dist/**",
+      "!**/*.md"
+    ],
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "artifactName": "${productName}-${version}.exe"
+    },
+    "extraMetadata": {
+      "main": "electron/main.js"
+    }
   }
 }
