@@ -35,6 +35,7 @@
 
   let currentBoss = null;
   let currentMap = null;
+  let recentPattern = null;
 
   const finderMapImage = new Image();
   let poiCoords = [];
@@ -43,7 +44,7 @@
   let nodesByPattern = new Map();
   let mapNodes = [];
   let nodeSelections = {};
-  let idToCoord = null;
+  let idToUV = null;
 
   const iconChurch = new Image();
   iconChurch.src = '../assets/images/seedfinderIcons/church-icon.png';
@@ -69,8 +70,8 @@
   }
 
   async function loadData() {
-    poiCoords = await fetchJson('../assets/data/poi_coordinates_with_ids.json');
-    idToCoord = new Map(poiCoords.map(p => [p.id, p.coordinates]));
+    const poiUV = await fetchJson('../assets/data/poi_uv_with_ids.json');
+    idToUV = new Map(poiUV.map(p => [p.id, p.uv]));
     const list = await fetchJson('../assets/data/nightlords.json');
     for (const n of NL_ORDER) {
       if (list.includes(n)) {
@@ -158,19 +159,9 @@
     return { best, bd };
   }
 
-  function createFinderMap(poiCoords, W = 768, H = 768) {
-    const xs = poiCoords.map(p => p.coordinates[0]);
-    const ys = poiCoords.map(p => p.coordinates[1]);
-    const minX = Math.min(...xs),
-      maxX = Math.max(...xs);
-    const minY = Math.min(...ys),
-      maxY = Math.max(...ys);
-    const spanX = Math.max(1, maxX - minX);
-    const spanY = Math.max(1, maxY - minY);
-    const scale = Math.min(W / spanX, H / spanY);
-    const tx = (W - spanX * scale) / 2 - minX * scale;
-    const ty = (H - spanY * scale) / 2 - minY * scale;
-    return (x, y) => ({ x: x * scale + tx, y: y * scale + ty });
+  function createFinderMap(u, v, W = 768, H = 768) {
+    const [x, y] = window.uvToScreen({ x: 0, y: 0, width: W, height: H }, u, v);
+    return { x, y };
   }
 
   function buildPoiToNodeMap() {
@@ -178,8 +169,6 @@
     if (!currentMap) return map;
 
     const base = poisByMap[currentMap] || [];
-    const poiToFinderMap = createFinderMap(poiCoords);
-
     const usedPoi = new Set();
     for (const p of filteredPatterns) {
       for (const ch of p.churches || []) {
@@ -191,9 +180,9 @@
     }
 
     for (const poiId of usedPoi) {
-      const coords = idToCoord.get(poiId);
-      if (!coords) continue;
-      const pt = poiToFinderMap(coords[0], coords[1]);
+      const uv = idToUV?.get(poiId);
+      if (!uv) continue;
+      const pt = createFinderMap(uv[0], uv[1]);
       const { best } = getNearestNode(pt, base);
       if (best) map.set(poiId, best.id);
     }
@@ -208,11 +197,8 @@
       return;
     }
 
-    const poiToFinderMap = createFinderMap(poiCoords);
-
     nodesByPattern.clear();
     const poi2node = buildPoiToNodeMap();
-
     const used = new Set();
 
     for (const pat of filteredPatterns) {
@@ -220,11 +206,11 @@
       for (const n of base) tbl[n.id] = null;
 
       for (const ch of pat.churches || []) {
-        const coords = idToCoord.get(ch.poi_id);
-        if (!coords) continue;
+        const uv = idToUV?.get(ch.poi_id);
+        if (!uv) continue;
         let nid = poi2node.get(ch.poi_id);
         if (nid == null) {
-          const p = poiToFinderMap(coords[0], coords[1]);
+          const p = createFinderMap(uv[0], uv[1]);
           const { best } = getNearestNode(p, base);
           nid = best?.id;
         }
@@ -235,11 +221,11 @@
       }
 
       for (const sr of pat.sorcerers_rises || []) {
-        const coords = idToCoord.get(sr.poi_id);
-        if (!coords) continue;
+        const uv = idToUV?.get(sr.poi_id);
+        if (!uv) continue;
         let nid = poi2node.get(sr.poi_id);
         if (nid == null) {
-          const p = poiToFinderMap(coords[0], coords[1]);
+          const p = createFinderMap(uv[0], uv[1]);
           const { best } = getNearestNode(p, base);
           nid = best?.id;
         }
@@ -337,11 +323,13 @@
     sendBtn.disabled = kept.length !== 1;
 
     if (kept.length === 1) {
-      window.seedAPI.sendSelected({
+      const payload = {
         nightlord: currentBoss,
         layout_number: kept[0].layout_number,
         pattern: kept[0],
-      });
+      };
+      recentPattern = payload;
+      window.seedAPI.sendSelected(payload);
     }
 
     setStatus(
@@ -392,7 +380,14 @@
 
     window.electronAPI?.overlay?.reset?.();
   });
-  sendBtn.addEventListener('click', () => prunePatterns());
+  
+  sendBtn.addEventListener('click', () => {
+    if (recentPattern) {
+      window.seedAPI.sendSelected(recentPattern);
+    } else {
+      prunePatterns();
+    }
+  });
 
   loadData();
 })();

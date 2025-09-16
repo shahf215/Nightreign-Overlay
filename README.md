@@ -14,6 +14,13 @@ An Electron-based **seed finder** and **overlay** for *Elden Ring Nightreign*. I
 - **Windows 10/11**
 - **Elden Ring Nightreign in Borderless Window mode**
 
+## 📦 Downloads
+
+Grab the latest Windows portable build from the **[Releases]** page.
+
+[Releases]: https://github.com/shahf215/Nightreign-Overlay/releases
+
+
 ## Quick Start (Developer Mode)
 - Ideal for debugging and UI tweaks
 ```bash
