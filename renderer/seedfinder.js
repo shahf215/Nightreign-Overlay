@@ -160,7 +160,7 @@
   }
 
   function createFinderMap(u, v, W = 768, H = 768) {
-    const [x, y] = window.uvToScreen({ x: 0, y: 0, width: W, height: H }, u, v);
+    const [x, y] = window.uvToSeedFinder({ x: 0, y: 0, width: W, height: H }, u, v);
     return { x, y };
   }
 
