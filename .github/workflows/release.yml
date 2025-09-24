@@ -1,0 +1,135 @@
+name: Nightreign Overlay Release (Windows Portable exe & ZIP)
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Tag to build (e.g., v1.1.0). If omitted, uses current ref when run from a tag.'
+        required: false
+      prerelease:
+        description: 'Mark release as pre-release'
+        type: boolean
+        required: false
+        default: false
+
+concurrency:
+  group: release-${{ github.ref || github.event.inputs.tag }}
+  cancel-in-progress: false
+
+jobs:
+  build-windows:
+    name: Build exe on Windows
+    runs-on: windows-latest
+    permissions:
+      contents: write
+
+    env:
+      # Prevent electron-builder from trying to auto-detect code-signing
+      CSC_IDENTITY_AUTO_DISCOVERY: false
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: If a tag was provided via workflow_dispatch, check it out
+        if: ${{ github.event.inputs.tag != '' }}
+        shell: bash
+        run: |
+          git fetch --tags --force
+          git checkout "${{ github.event.inputs.tag }}"
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build portable EXE
+        run: npm run dist:win
+
+      - name: Build ZIP
+        run: npm run dist:dir
+
+      - name: List build artifacts
+        shell: bash
+        run: ls -la dist
+
+      - name: Generate SHA256 checksums
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          Set-Location dist
+          # Pick up .exe and .zip reliably
+          $files = Get-ChildItem -Path . -File | Where-Object { $_.Extension -in '.exe', '.zip' }
+          if (-not $files) { throw "No artifacts found (.exe/.zip) in dist" }
+          $lines = $files | ForEach-Object {
+            (Get-FileHash -Algorithm SHA256 $_.FullName).Hash + "  " + $_.Name
+          }
+          Set-Content -Path SHA256SUMS.txt -Value $lines -Encoding ASCII
+          Get-Content SHA256SUMS.txt
+
+      - name: Upload artifacts to workflow run (for CI downloads)
+        uses: actions/upload-artifact@v4
+        with:
+          name: nightreign-overlay-windows
+          path: |
+            dist/*.exe
+            dist/*.zip
+            dist/SHA256SUMS.txt
+
+  release:
+    name: Publish GitHub Release
+    needs: build-windows
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download built artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: nightreign-overlay-windows
+          path: dist
+
+      - name: Determine tag name
+        id: tagvars
+        shell: bash
+        run: |
+          if [[ "${{ github.ref_type }}" == "tag" && -n "${GITHUB_REF_NAME}" ]]; then
+            echo "TAG=${GITHUB_REF_NAME}" >> "$GITHUB_OUTPUT"
+          else
+            echo "TAG=${{ github.event.inputs.tag }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.tagvars.outputs.TAG }}
+          name: Nightreign Overlay ${{ steps.tagvars.outputs.TAG }}
+          body: |
+            **Nightreign Overlay** (Windows)
+
+            **Downloads**
+            - **Portable EXE** — single-file, slower cold start.
+            - **ZIP (Unpacked Folder)** — faster launch; unzip and run the `.exe` inside.
+
+            Verify your download with the checksums in `SHA256SUMS.txt`.
+
+            _This app does not inject, patch, or read game memory. It runs as a transparent desktop overlay and listens for hotkeys._
+          draft: false                
+          prerelease: ${{ github.event.inputs.prerelease == 'true' }}
+          make_latest: true             
+          overwrite_files: true
+          files: |
+            dist/*.exe
+            dist/*.zip
+            dist/SHA256SUMS.txt
+

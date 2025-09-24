@@ -1,0 +1,61 @@
+{
+  "name": "nightreign-overlay",
+  "version": "1.2.0",
+  "description": "Desktop overlay & seed finder for Elden Ring: Nightreign.",
+  "author": "Fahid Shah",
+  "private": true,
+  "type": "commonjs",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist:win": "electron-builder --win portable",
+    "dist:dir": "electron-builder --win zip"
+  },
+  "devDependencies": {
+    "electron": "^38.1.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.fahid.nightreign.overlay",
+    "productName": "Nightreign Overlay",
+    "electronLanguages": ["en-US"],
+    "compression": "normal",
+    "asar": true,
+    "asarUnpack": [
+      "assets/data/**",
+      "assets/images/**"
+    ],
+    "files": [
+      "electron/**",
+      "renderer/**",
+      "assets/**",
+      "package.json",
+      "!**/*.map",
+      "!**/*.test.*",
+      "!**/node_modules/**/test/**",
+      "!**/node_modules/**/examples/**",
+      "!**/.git/**",
+      "!**/.github/**",
+      "!**/dist/**",
+      "!**/*.md"
+    ],
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "portable"
+        },
+        { 
+          "target": "zip"
+        }
+      ],
+      "artifactName": "${productName}-${version}.${ext}"
+    },
+    "extraMetadata": {
+      "main": "electron/main.js"
+    }
+  }
+}
