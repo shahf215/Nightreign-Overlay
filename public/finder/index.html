@@ -1,0 +1,527 @@
+﻿<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Nightreign Seed Finder</title>
+    <style>
+      :root {
+        --bg-color: #0b0e11;
+        --panel-bg: #1f2937;
+        --panel-border: #374151;
+        --btn-bg: #1f2937;
+        --btn-active-bg: #2563eb;
+        --btn-border: #374151;
+        --btn-active-border: #1d4ed8;
+        --text-color: #e2e8f0;
+        --hint-color: #9ca3af;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: var(--bg-color);
+        color: var(--text-color);
+        font:
+          14px ui-sans-serif,
+          system-ui;
+      }
+
+      .wrap {
+        display: flex;
+        flex-direction: row;
+        min-height: 100vh;
+        width: 100%;
+      }
+
+      .panel {
+        box-sizing: border-box;
+        padding: 16px;
+      }
+
+      #controls {
+        min-width: 255px;
+        max-width: 255px;
+        border-right: 1px solid var(--panel-border);
+      }
+
+      #mapContainer {
+        position: relative;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 16px;
+      }
+
+      #mapWrapper {
+        position: relative;
+        overflow: hidden;
+        background: var(--bg-color);
+      }
+
+      #mapImage {
+        display: block;
+        width: 100%;
+        height: auto;
+        image-rendering: crisp-edges;
+      }
+
+      #iconLayer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        pointer-events: auto;
+      }
+
+      .btns {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-top: 6px;
+      }
+
+      .btns button {
+        background: var(--btn-bg);
+        color: var(--text-color);
+        border: 1px solid var(--btn-border);
+        border-radius: 6px;
+        padding: 6px 10px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+      }
+
+      .btns button.active {
+        background: var(--btn-active-bg);
+        border-color: var(--btn-active-border);
+      }
+
+      .btns img {
+        width: 20px;
+        height: 20px;
+      }
+
+      .hint {
+        color: var(--hint-color);
+        font-size: 12px;
+      }
+
+      ul#cand {
+        margin: 6px 0 0 18px;
+        padding: 0;
+        list-style: none;
+        max-height: 160px;
+        overflow-y: auto;
+      }
+
+      ul#cand li {
+        font-size: 12px;
+        margin-bottom: 2px;
+      }
+
+      button.control-btn {
+        background: var(--btn-bg);
+        color: var(--text-color);
+        border: 1px solid var(--btn-border);
+        border-radius: 6px;
+        padding: 6px 10px;
+        cursor: pointer;
+        margin-right: 8px;
+      }
+
+      button.control-btn:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+
+      .slot-icon {
+        position: absolute;
+        cursor: pointer;
+      }
+
+      .slot-icon img {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+
+      .ghost {
+        opacity: 0.75;
+        filter: drop-shadow(0 0 8px #6ec6ff) drop-shadow(0 0 2px #6ec6ff);
+      }
+
+      #modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display: none;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+      }
+
+      #modalContent {
+        background: #1f2937;
+        border: 1px solid #374151;
+        border-radius: 8px;
+        padding: 16px;
+        max-width: 480px;
+        max-height: 80vh;
+        overflow-y: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(64px, 1fr));
+        gap: 12px;
+      }
+
+      #modalContent button {
+        border: none;
+        background: none;
+        padding: 0;
+        cursor: pointer;
+      }
+
+      #modalContent img {
+        width: 48px;
+        height: 48px;
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div id="controls" class="panel">
+        <div id="localePicker">
+          <div class="locale-picker__controls">
+            <label for="localeSelect" class="hint locale-picker__label">Language</label>
+            <select id="localeSelect"></select>
+            <span id="adviceTooltipIcon" title="Seedfinder Advice" class="tooltip-trigger">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="10" cy="10" r="9" stroke="#9ca3af" stroke-width="2" fill="#1f2937" />
+                <text
+                  x="10"
+                  y="15"
+                  text-anchor="middle"
+                  font-size="12"
+                  fill="#9ca3af"
+                  font-family="Arial"
+                  dy="-2"
+                >
+                  i
+                </text>
+              </svg>
+            </span>
+          </div>
+          <div id="adviceTooltip">
+            <div class="tooltip-card__heading">Seedfinder Tips</div>
+            <ul class="tooltip-card__list">
+              <li>
+                For fastest pruning, start by placing <b>Spawn</b>, <b>Churches</b>,
+                <b>Sorcerer's Rise</b>, and <b>Township</b> icons.
+              </li>
+              <li>
+                For some seeds you <b>Spawn</b> at a <b>Church</b> in these cases please use the
+                combined <b>Church Spawn</b> icon shown below
+              </li>
+              <li>
+                Supplement with other icons like Great Church, Camps, Ruins, and Forts if need be.
+              </li>
+              <li>
+                Hover over icons below for details, and use the overlay options to customize your
+                view.
+              </li>
+              <li>Reset if you make a mistake or want to try a new seed.</li>
+            </ul>
+            <div class="tooltip-card__subheading">Recommended Icons to Place First:</div>
+            <div class="icon-strip">
+              <img
+                src="../assets/buildingIcons/church.webp"
+                alt="Church"
+                title="Church"
+                class="icon-strip__image"
+              />
+              <img
+                src="../assets/buildingIcons/spawn.webp"
+                alt="Spawn"
+                title="Spawn"
+                class="icon-strip__image"
+              />
+              <img
+                src="../assets/buildingIcons/church_spawn.webp"
+                alt="Church Spawn"
+                title="Church Spawn"
+                class="icon-strip__image"
+              />
+              <img
+                src="../assets/buildingIcons/sorcerers.webp"
+                alt="Sorcerer's Rise"
+                title="Sorcerer's Rise"
+                class="icon-strip__image"
+              />
+              <img
+                src="../assets/buildingIcons/township.webp"
+                alt="Sorcerer's Rise"
+                title="Sorcerer's Rise"
+                class="icon-strip__image"
+              />
+            </div>
+            <div class="tooltip-card__subheading">Supplemental Icons:</div>
+            <div class="icon-strip">
+              <img
+                src="../assets/buildingIcons/greatchurch.webp"
+                alt="Great Church"
+                title="Great Church"
+                class="icon-strip__image"
+              />
+              <img
+                src="../assets/buildingIcons/fort.webp"
+                alt="Fort"
+                title="Fort"
+                class="icon-strip__image"
+              />
+              <img
+                src="../assets/buildingIcons/ruins.webp"
+                alt="Ruins"
+                title="Ruins"
+                class="icon-strip__image"
+              />
+              <img
+                src="../assets/buildingIcons/mainencampment.webp"
+                alt="Camp"
+                title="Camp"
+                class="icon-strip__image"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="section-spacing"><b id="chooseMapText">Choose Map</b></div>
+        <div class="btns" id="mapBtns"></div>
+
+        <hr class="panel-divider" />
+
+        <div class="section-spacing"><b id="statusLabel">Status</b></div>
+        <div id="status" class="hint">Pick a map to begin.</div>
+
+        <div class="section-spacing">
+          <b id="candidatesLabel">Candidates</b> <span id="count"></span>
+        </div>
+        <ul id="cand"></ul>
+
+        <div class="section-spacing">
+          <button id="resetButton" class="control-btn">Reset</button>
+          <button id="sendButton" class="control-btn" disabled>Show Overlay</button>
+        </div>
+
+        <div class="section-spacing section-spacing--lg"><b>Overlay Options</b></div>
+        <div id="overlayOptions">
+          <details class="accordion" id="overlayVisibility">
+            <summary>POI Settings</summary>
+            <div class="accordion__body options-grid">
+              <label class="toggle"><input type="checkbox" id="optShowCamps" /> Show Camps</label>
+              <input type="color" id="optColorCamps" title="Color for Camp labels" />
+
+              <label class="toggle"
+                ><input type="checkbox" id="optShowCaravans" /> Show Caravans</label
+              >
+              <input type="color" id="optColorCaravans" title="Color for Caravan labels" />
+
+              <label class="toggle"
+                ><input type="checkbox" id="optShowCastle" /> Show Castle Bosses</label
+              >
+              <input type="color" id="optColorCastle" title="Color for Castle Boss labels" />
+
+              <label class="toggle"
+                ><input type="checkbox" id="optShowChurches" /> Show Churches</label
+              >
+              <input type="color" id="optColorChurches" title="Color for Church labels" />
+
+              <label class="toggle"
+                ><input type="checkbox" id="optShowEvergaol" /> Show Evergaols</label
+              >
+              <input type="color" id="optColorEvergaol" title="Color for Evergaol labels" />
+
+              <label class="toggle"><input type="checkbox" id="optShowEvent" /> Show Events</label>
+              <input type="color" id="optColorEvent" title="Color for Event labels" />
+
+              <label class="toggle"
+                ><input type="checkbox" id="optShowFieldBoss" /> Show Field Bosses</label
+              >
+              <input type="color" id="optColorFieldBoss" title="Color for Field Boss labels" />
+
+              <label class="toggle"><input type="checkbox" id="optShowForts" /> Show Forts</label>
+              <input type="color" id="optColorForts" title="Color for Fort labels" />
+
+              <label class="toggle"
+                ><input type="checkbox" id="optShowGreatChurches" /> Show Great Churches</label
+              >
+              <input
+                type="color"
+                id="optColorGreatChurches"
+                title="Color for Great Church labels"
+              />
+
+              <label class="toggle"
+                ><input type="checkbox" id="optShowNight" /> Show Night Bosses</label
+              >
+              <input type="color" id="optColorNight" title="Color for Night labels" />
+
+              <label class="toggle"><input type="checkbox" id="optShowRuins" /> Show Ruins</label>
+              <input type="color" id="optColorRuins" title="Color for Ruins labels" />
+
+              <label class="toggle"
+                ><input type="checkbox" id="optShowSorcererRise" /> Show Sorcerer Rises</label
+              >
+              <input
+                type="color"
+                id="optColorSorcererRise"
+                title="Color for Sorcerer Rise labels"
+              />
+
+              <label class="toggle"
+                ><input type="checkbox" id="optShowTownships" /> Show Townships</label
+              >
+              <input type="color" id="optColorTownships" title="Color for Township labels" />
+            </div>
+          </details>
+
+          <details class="accordion" id="overlayLabels">
+            <summary>Overlay Settings</summary>
+            <div class="accordion__body options-grid">
+              <label class="toggle"
+                >Font Size:
+                <input type="number" id="optFontSize" min="8" max="40" step="1" />
+              </label>
+              <span></span>
+
+              <label class="toggle"
+                >Offset X:
+                <input type="number" id="optOffsetX" step="1" />
+              </label>
+              <span></span>
+
+              <label class="toggle"
+                >Offset Y:
+                <input type="number" id="optOffsetY" step="1" />
+              </label>
+              <span></span>
+
+              <label class="toggle"
+                >Scale:
+                <input type="number" id="optScale" min="0.25" max="4" step="0.05" />
+              </label>
+              <span></span>
+            </div>
+          </details>
+
+          <button id="hotkey-menu-btn" type="button">Hotkey Settings</button>
+        </div>
+      </div>
+
+      <div id="mapContainer" class="panel">
+        <div id="mapWrapper">
+          <img id="mapImage" src="" alt="" />
+          <div id="iconLayer"></div>
+          <div id="thumbs"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal">
+      <div id="modalContent"></div>
+    </div>
+
+    <script src="../../src/core/filtering.js"></script>
+    <script src="../../src/shared/i18n/domain.js"></script>
+    <script src="../../src/finder/i18n/domain-wire.js"></script>
+    <script src="../../src/finder/modules/data.js"></script>
+    <script src="../../src/finder/modules/state.js"></script>
+    <script src="../../src/finder/modules/overlay-prefs.js"></script>
+    <script src="../../src/input/keymap.js"></script>
+    <script src="../../src/finder/runtime/dom.js"></script>
+    <script src="../../src/finder/runtime/map-view.js"></script>
+    <script src="../../src/finder/runtime/view.js"></script>
+    <script src="../../src/finder/runtime/locale.js"></script>
+    <script src="../../src/finder/runtime/selection.js"></script>
+    <script src="../../src/finder/runtime/hotkeys.js"></script>
+    <script src="../../src/finder/runtime/events.js"></script>
+    <script src="../../src/finder/runtime/index.js"></script>
+    <script>
+      const adviceIcon = document.getElementById('adviceTooltipIcon');
+      const adviceTooltip = document.getElementById('adviceTooltip');
+      let tooltipVisible = false;
+      adviceIcon.addEventListener('click', function (e) {
+        tooltipVisible = !tooltipVisible;
+        adviceTooltip.style.display = tooltipVisible ? 'block' : 'none';
+      });
+      document.addEventListener('mousedown', function (e) {
+        if (tooltipVisible && !adviceTooltip.contains(e.target) && !adviceIcon.contains(e.target)) {
+          adviceTooltip.style.display = 'none';
+          tooltipVisible = false;
+        }
+      });
+    </script>
+    <div
+      id="hotkey-modal"
+      class="hotkey-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="hotkey-modal-title"
+      aria-hidden="true"
+    >
+      <div class="hotkey-modal__content">
+        <div class="hotkey-modal__header">
+          <div class="hotkey-modal__heading">
+            <h2 id="hotkey-modal-title">Hotkey Settings</h2>
+            <p class="hotkey-modal__subtitle">Customize shortcuts for quick access everywhere.</p>
+          </div>
+          <button
+            type="button"
+            id="hotkey-modal-close"
+            class="icon-btn"
+            aria-label="Close hotkey settings"
+          >
+            <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M5 5l10 10M15 5L5 15"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <div class="hotkey-modal__body">
+          <div id="hotkey-list" class="hotkey-list"></div>
+        </div>
+
+        <div class="hotkey-modal__footer" id="hotkey-footer">
+          <div class="hotkey-modal__footer-left">
+            <button id="reset-hotkeys-btn" type="button" class="btn btn--ghost">
+              Reset All to Default
+            </button>
+          </div>
+          <div class="hotkey-modal__footer-right">
+            <button id="close-hotkey-modal" type="button" class="btn btn--ghost">Close</button>
+            <button id="hotkey-save-btn" type="button" class="btn btn--primary" disabled>
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

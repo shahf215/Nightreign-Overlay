@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "chooseNightlord": "Elige al Señor de la Noche",
+    "chooseMap": "Elija el mapa",
+    "status": "Estado",
+    "candidates": "Candidatos",
+    "reset": "Reiniciar",
+    "showOverlay": "Mostrar superposición",
+    "pickMapAndNightlord": "Elige un señor de la noche y un mapa.",
+    "pickMap": "Elige un mapa.",
+    "candidatesCountLabel": "candidatos",
+    "night1": "Noche 1",
+    "night2": "Noche 2",
+    "church": "Iglesia"
+  }
+}

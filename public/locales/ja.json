@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "chooseNightlord": "ナイトロードを選択",
+    "chooseMap": "地図を選択",
+    "status": "状態",
+    "candidates": "候補者",
+    "reset": "リセット",
+    "showOverlay": "オーバーレイを表示",
+    "pickMapAndNightlord": "ナイトロードとマップを選択します。",
+    "pickMap": "地図を選択してください。",
+    "candidatesCountLabel": "候補者",
+    "night1": "夜1",
+    "night2": "夜2",
+    "church": "教会"
+  }
+}

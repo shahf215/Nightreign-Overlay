@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "chooseNightlord": "Wybierz Władcę Nocy",
+    "chooseMap": "Wybierz mapę",
+    "status": "Status",
+    "candidates": "Kandydaci",
+    "reset": "Nastawić",
+    "showOverlay": "Pokaż nakładkę",
+    "pickMapAndNightlord": "Wybierz Nocnego Lorda i mapę.",
+    "pickMap": "Wybierz mapę.",
+    "candidatesCountLabel": "kandydaci",
+    "night1": "Noc 1",
+    "night2": "Noc 2",
+    "church": "Kościół"
+  }
+}

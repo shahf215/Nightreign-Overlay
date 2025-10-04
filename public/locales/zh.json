@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "chooseNightlord": "选择夜魔",
+    "chooseMap": "选择地图",
+    "status": "地位",
+    "candidates": "候选人",
+    "reset": "重置",
+    "showOverlay": "显示覆盖",
+    "pickMapAndNightlord": "选择一个夜领主和地图。",
+    "pickMap": "选择一张地图。",
+    "candidatesCountLabel": "候选人",
+    "night1": "第一晚",
+    "night2": "第二晚",
+    "church": "教会"
+  }
+}

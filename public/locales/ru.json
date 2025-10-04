@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "chooseNightlord": "Выбрать Повелителя Ночи",
+    "chooseMap": "Выбрать карту",
+    "status": "Статус",
+    "candidates": "Кандидаты",
+    "reset": "Перезагрузить",
+    "showOverlay": "Показать наложение",
+    "pickMapAndNightlord": "Выберите повелителя ночи и карту.",
+    "pickMap": "Выберите карту.",
+    "candidatesCountLabel": "кандидаты",
+    "night1": "Ночь 1",
+    "night2": "Ночь 2",
+    "church": "Церковь"
+  }
+}

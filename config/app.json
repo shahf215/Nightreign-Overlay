@@ -1,0 +1,11 @@
+{
+  "fontSize": 12,
+  "offsetX": 0,
+  "offsetY": 0,
+  "showNight": true,
+  "showEvergaol": true,
+  "showFieldBoss": true,
+  "showEvent": true,
+  "showSorcererRise": true,
+  "showCastle": true
+}

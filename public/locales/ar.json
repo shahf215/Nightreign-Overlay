@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "chooseNightlord": "اختر نايت لورد",
+    "chooseMap": "اختر الخريطة",
+    "status": "حالة",
+    "candidates": "مرشحين",
+    "reset": "إعادة ضبط",
+    "showOverlay": "إظهار التراكب",
+    "pickMapAndNightlord": "اختر زعيم الليل والخريطة.",
+    "pickMap": "إختر خريطة.",
+    "candidatesCountLabel": "مرشحين",
+    "night1": "الليلة الأولى",
+    "night2": "الليلة الثانية",
+    "church": "كنيسة"
+  }
+}

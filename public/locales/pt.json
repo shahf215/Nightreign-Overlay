@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "chooseNightlord": "Escolha Nightlord",
+    "chooseMap": "Escolha o mapa",
+    "status": "Status",
+    "candidates": "Candidatos",
+    "reset": "Reiniciar",
+    "showOverlay": "Mostrar sobreposição",
+    "pickMapAndNightlord": "Escolha um senhor da noite e um mapa.",
+    "pickMap": "Escolha um mapa.",
+    "candidatesCountLabel": "candidatos",
+    "night1": "Noite 1",
+    "night2": "Noite 2",
+    "church": "Igreja"
+  }
+}
