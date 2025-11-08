@@ -199,9 +199,9 @@
       <div id="controls" class="panel">
         <div id="localePicker">
           <div class="locale-picker__controls">
-            <label for="localeSelect" class="hint locale-picker__label">Language</label>
+            <label for="localeSelect" class="hint locale-picker__label" id="languageLabel">Language</label>
             <select id="localeSelect"></select>
-            <span id="adviceTooltipIcon" title="Seedfinder Advice" class="tooltip-trigger">
+            <span id="adviceTooltipIcon" class="tooltip-trigger">
               <svg
                 width="18"
                 height="18"
@@ -225,26 +225,15 @@
             </span>
           </div>
           <div id="adviceTooltip">
-            <div class="tooltip-card__heading">Seedfinder Tips</div>
+            <div class="tooltip-card__heading" id="seedfinderTipsTitle">Seedfinder Tips</div>
             <ul class="tooltip-card__list">
-              <li>
-                For fastest pruning, start by placing <b>Spawn</b>, <b>Churches</b>,
-                <b>Sorcerer's Rise</b>, and <b>Township</b> icons.
-              </li>
-              <li>
-                For some seeds you <b>Spawn</b> at a <b>Church</b> in these cases please use the
-                combined <b>Church Spawn</b> icon shown below
-              </li>
-              <li>
-                Supplement with other icons like Great Church, Camps, Ruins, and Forts if need be.
-              </li>
-              <li>
-                Hover over icons below for details, and use the overlay options to customize your
-                view.
-              </li>
-              <li>Reset if you make a mistake or want to try a new seed.</li>
+              <li id="tip1"></li>
+              <li id="tip2"></li>
+              <li id="tip3"></li>
+              <li id="tip4"></li>
+              <li id="tip5"></li>
             </ul>
-            <div class="tooltip-card__subheading">Recommended Icons to Place First:</div>
+            <div class="tooltip-card__subheading" id="recommendedIconsTitle">Recommended Icons to Place First:</div>
             <div class="icon-strip">
               <img
                 src="../assets/buildingIcons/church.webp"
@@ -277,7 +266,7 @@
                 class="icon-strip__image"
               />
             </div>
-            <div class="tooltip-card__subheading">Supplemental Icons:</div>
+            <div class="tooltip-card__subheading" id="supplementalIconsTitle">Supplemental Icons:</div>
             <div class="icon-strip">
               <img
                 src="../assets/buildingIcons/greatchurch.webp"
@@ -325,47 +314,47 @@
           <button id="sendButton" class="control-btn" disabled>Show Overlay</button>
         </div>
 
-        <div class="section-spacing section-spacing--lg"><b>Overlay Options</b></div>
+        <div class="section-spacing section-spacing--lg"><b id="overlayOptionsTitle">Overlay Options</b></div>
         <div id="overlayOptions">
           <details class="accordion" id="overlayVisibility">
-            <summary>POI Settings</summary>
+            <summary id="poiSettingsTitle">POI Settings</summary>
             <div class="accordion__body options-grid">
-              <label class="toggle"><input type="checkbox" id="optShowCamps" /> Show Camps</label>
+              <label class="toggle"><input type="checkbox" id="optShowCamps" /><span id="labelShowCamps">Show Camps</span></label>
               <input type="color" id="optColorCamps" title="Color for Camp labels" />
 
               <label class="toggle"
-                ><input type="checkbox" id="optShowCaravans" /> Show Caravans</label
+                ><input type="checkbox" id="optShowCaravans" /><span id="labelShowCaravans">Show Caravans</span></label
               >
               <input type="color" id="optColorCaravans" title="Color for Caravan labels" />
 
               <label class="toggle"
-                ><input type="checkbox" id="optShowCastle" /> Show Castle Bosses</label
+                ><input type="checkbox" id="optShowCastle" /><span id="labelShowCastle">Show Castle Bosses</span></label
               >
               <input type="color" id="optColorCastle" title="Color for Castle Boss labels" />
 
               <label class="toggle"
-                ><input type="checkbox" id="optShowChurches" /> Show Churches</label
+                ><input type="checkbox" id="optShowChurches" /><span id="labelShowChurches">Show Churches</span></label
               >
               <input type="color" id="optColorChurches" title="Color for Church labels" />
 
               <label class="toggle"
-                ><input type="checkbox" id="optShowEvergaol" /> Show Evergaols</label
+                ><input type="checkbox" id="optShowEvergaol" /><span id="labelShowEvergaol">Show Evergaols</span></label
               >
               <input type="color" id="optColorEvergaol" title="Color for Evergaol labels" />
 
-              <label class="toggle"><input type="checkbox" id="optShowEvent" /> Show Events</label>
+              <label class="toggle"><input type="checkbox" id="optShowEvent" /><span id="labelShowEvent">Show Events</span></label>
               <input type="color" id="optColorEvent" title="Color for Event labels" />
 
               <label class="toggle"
-                ><input type="checkbox" id="optShowFieldBoss" /> Show Field Bosses</label
+                ><input type="checkbox" id="optShowFieldBoss" /><span id="labelShowFieldBoss">Show Field Bosses</span></label
               >
               <input type="color" id="optColorFieldBoss" title="Color for Field Boss labels" />
 
-              <label class="toggle"><input type="checkbox" id="optShowForts" /> Show Forts</label>
+              <label class="toggle"><input type="checkbox" id="optShowForts" /><span id="labelShowForts">Show Forts</span></label>
               <input type="color" id="optColorForts" title="Color for Fort labels" />
 
               <label class="toggle"
-                ><input type="checkbox" id="optShowGreatChurches" /> Show Great Churches</label
+                ><input type="checkbox" id="optShowGreatChurches" /><span id="labelShowGreatChurches">Show Great Churches</span></label
               >
               <input
                 type="color"
@@ -374,15 +363,15 @@
               />
 
               <label class="toggle"
-                ><input type="checkbox" id="optShowNight" /> Show Night Bosses</label
+                ><input type="checkbox" id="optShowNight" /><span id="labelShowNight">Show Night Bosses</span></label
               >
               <input type="color" id="optColorNight" title="Color for Night labels" />
 
-              <label class="toggle"><input type="checkbox" id="optShowRuins" /> Show Ruins</label>
+              <label class="toggle"><input type="checkbox" id="optShowRuins" /><span id="labelShowRuins">Show Ruins</span></label>
               <input type="color" id="optColorRuins" title="Color for Ruins labels" />
 
               <label class="toggle"
-                ><input type="checkbox" id="optShowSorcererRise" /> Show Sorcerer Rises</label
+                ><input type="checkbox" id="optShowSorcererRise" /><span id="labelShowSorcererRise">Show Sorcerer Rises</span></label
               >
               <input
                 type="color"
@@ -391,35 +380,35 @@
               />
 
               <label class="toggle"
-                ><input type="checkbox" id="optShowTownships" /> Show Townships</label
+                ><input type="checkbox" id="optShowTownships" /><span id="labelShowTownships">Show Townships</span></label
               >
               <input type="color" id="optColorTownships" title="Color for Township labels" />
             </div>
           </details>
 
           <details class="accordion" id="overlayLabels">
-            <summary>Overlay Settings</summary>
+            <summary id="overlaySettingsTitle">Overlay Settings</summary>
             <div class="accordion__body options-grid">
               <label class="toggle"
-                >Font Size:
+                ><span id="labelFontSize">Font Size:</span>
                 <input type="number" id="optFontSize" min="8" max="40" step="1" />
               </label>
               <span></span>
 
               <label class="toggle"
-                >Offset X:
+                ><span id="labelOffsetX">Offset X:</span>
                 <input type="number" id="optOffsetX" step="1" />
               </label>
               <span></span>
 
               <label class="toggle"
-                >Offset Y:
+                ><span id="labelOffsetY">Offset Y:</span>
                 <input type="number" id="optOffsetY" step="1" />
               </label>
               <span></span>
 
               <label class="toggle"
-                >Scale:
+                ><span id="labelScale">Scale:</span>
                 <input type="number" id="optScale" min="0.25" max="4" step="0.05" />
               </label>
               <span></span>
@@ -485,7 +474,7 @@
         <div class="hotkey-modal__header">
           <div class="hotkey-modal__heading">
             <h2 id="hotkey-modal-title">Hotkey Settings</h2>
-            <p class="hotkey-modal__subtitle">Customize shortcuts for quick access everywhere.</p>
+            <p class="hotkey-modal__subtitle" id="hotkey-modal-subtitle">Customize shortcuts for quick access everywhere.</p>
           </div>
           <button
             type="button"
@@ -511,13 +500,13 @@
         <div class="hotkey-modal__footer" id="hotkey-footer">
           <div class="hotkey-modal__footer-left">
             <button id="reset-hotkeys-btn" type="button" class="btn btn--ghost">
-              Reset All to Default
+              <span id="reset-all-to-default-text">Reset All to Default</span>
             </button>
           </div>
           <div class="hotkey-modal__footer-right">
-            <button id="close-hotkey-modal" type="button" class="btn btn--ghost">Close</button>
+            <button id="close-hotkey-modal" type="button" class="btn btn--ghost"><span id="close-text">Close</span></button>
             <button id="hotkey-save-btn" type="button" class="btn btn--primary" disabled>
-              Save
+              <span id="save-text">Save</span>
             </button>
           </div>
         </div>

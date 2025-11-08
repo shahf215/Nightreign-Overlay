@@ -181,7 +181,8 @@
       const working = getWorkingHotkeys();
       const prev = working[label];
       if (activeRecorderCleanup) activeRecorderCleanup(false);
-      btn.textContent = 'Press keys...';
+      const texts = state?.current?.texts;
+      btn.textContent = texts?.ui?.pressKeys || 'Press keys...';
       btn.classList.add('is-recording');
       btn.disabled = true;
       dom.hotkeyList.setAttribute('data-recording', 'true');
@@ -293,7 +294,9 @@
       markDirty(false);
     }
 
-    return { init };
+    return { 
+      init,
+    };
   }
 
   runtime.createHotkeyController = createHotkeyController;

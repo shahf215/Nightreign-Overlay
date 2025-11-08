@@ -13,14 +13,68 @@
     }
 
     function updateTexts() {
-      const { texts } = state.current;
-      if (dom.chooseMapText)
-        dom.chooseMapText.textContent = texts.ui?.chooseMap || 'Choose Shifting Earth';
-      if (dom.statusLabel) dom.statusLabel.textContent = texts.ui?.status || 'Status';
-      if (dom.candidatesLabel)
-        dom.candidatesLabel.textContent = texts.ui?.candidates || 'Candidates';
-      if (dom.resetBtn) dom.resetBtn.textContent = texts.ui?.reset || 'Reset';
-      if (dom.sendBtn) dom.sendBtn.textContent = texts.ui?.showOverlay || 'Show Overlay';
+      try {
+        const { texts } = state.current;
+        
+        // 基本UI元素
+        if (dom.chooseMapText)
+          dom.chooseMapText.textContent = texts.ui?.chooseMap || 'Choose Shifting Earth';
+        if (dom.statusLabel) dom.statusLabel.textContent = texts.ui?.status || 'Status';
+        if (dom.candidatesLabel)
+          dom.candidatesLabel.textContent = texts.ui?.candidates || 'Candidates';
+        if (dom.resetBtn) dom.resetBtn.textContent = texts.ui?.reset || 'Reset';
+        if (dom.sendBtn) dom.sendBtn.textContent = texts.ui?.showOverlay || 'Show Overlay';
+        
+        // 覆盖层选项相关
+        if (dom.overlayOptionsTitle) dom.overlayOptionsTitle.textContent = texts.ui?.overlayOptions || 'Overlay Options';
+        if (dom.poiSettingsTitle) dom.poiSettingsTitle.textContent = texts.ui?.poiSettings || 'POI Settings';
+        if (dom.overlaySettingsTitle) dom.overlaySettingsTitle.textContent = texts.ui?.overlaySettings || 'Overlay Settings';
+        if (dom.hotkeyMenuBtn) dom.hotkeyMenuBtn.textContent = texts.ui?.hotkeySettings || 'Hotkey Settings';
+        
+        // 显示选项标签
+        if (dom.labelShowCamps) dom.labelShowCamps.textContent = texts.ui?.showCamps || 'Show Camps';
+        if (dom.labelShowCaravans) dom.labelShowCaravans.textContent = texts.ui?.showCaravans || 'Show Caravans';
+        if (dom.labelShowCastle) dom.labelShowCastle.textContent = texts.ui?.showCastleBosses || 'Show Castle Bosses';
+        if (dom.labelShowChurches) dom.labelShowChurches.textContent = texts.ui?.showChurches || 'Show Churches';
+        if (dom.labelShowEvergaol) dom.labelShowEvergaol.textContent = texts.ui?.showEvergaols || 'Show Evergaols';
+        if (dom.labelShowEvent) dom.labelShowEvent.textContent = texts.ui?.showEvents || 'Show Events';
+        if (dom.labelShowFieldBoss) dom.labelShowFieldBoss.textContent = texts.ui?.showFieldBosses || 'Show Field Bosses';
+        if (dom.labelShowForts) dom.labelShowForts.textContent = texts.ui?.showForts || 'Show Forts';
+        if (dom.labelShowGreatChurches) dom.labelShowGreatChurches.textContent = texts.ui?.showGreatChurches || 'Show Great Churches';
+        if (dom.labelShowNight) dom.labelShowNight.textContent = texts.ui?.showNightBosses || 'Show Night Bosses';
+        if (dom.labelShowRuins) dom.labelShowRuins.textContent = texts.ui?.showRuins || 'Show Ruins';
+        if (dom.labelShowSorcererRise) dom.labelShowSorcererRise.textContent = texts.ui?.showSorcererRises || 'Show Sorcerer Rises';
+        if (dom.labelShowTownships) dom.labelShowTownships.textContent = texts.ui?.showTownships || 'Show Townships';
+        
+        // 覆盖层设置标签
+        if (dom.labelFontSize) dom.labelFontSize.textContent = (texts.ui?.fontSize || 'Font Size') + ':';
+        if (dom.labelOffsetX) dom.labelOffsetX.textContent = (texts.ui?.offsetX || 'Offset X') + ':';
+        if (dom.labelOffsetY) dom.labelOffsetY.textContent = (texts.ui?.offsetY || 'Offset Y') + ':';
+        if (dom.labelScale) dom.labelScale.textContent = (texts.ui?.scale || 'Scale') + ':';
+        if (dom.languageLabel) dom.languageLabel.textContent = texts.ui?.language || 'Language';
+        
+        // 提示和建议
+        if (dom.adviceTooltipIcon) dom.adviceTooltipIcon.setAttribute('title', texts.ui?.seedfinderAdvice || 'Seedfinder Advice');
+        if (dom.seedfinderTipsTitle) dom.seedfinderTipsTitle.textContent = texts.ui?.seedfinderTips || 'Seedfinder Tips';
+        if (dom.tip1) dom.tip1.innerHTML = texts.ui?.tip1 || 'For fastest pruning, start by placing <b>Spawn</b>, <b>Churches</b>, <b>Sorcerer\'s Rise</b>, and <b>Township</b> icons.';
+        if (dom.tip2) dom.tip2.innerHTML = texts.ui?.tip2 || 'For some seeds you <b>Spawn</b> at a <b>Church</b> in these cases please use the combined <b>Church Spawn</b> icon shown below';
+        if (dom.tip3) dom.tip3.innerHTML = texts.ui?.tip3 || 'Supplement with other icons like Great Church, Camps, Ruins, and Forts if need be.';
+        if (dom.tip4) dom.tip4.innerHTML = texts.ui?.tip4 || 'Hover over icons below for details, and use the overlay options to customize your view.';
+        if (dom.tip5) dom.tip5.innerHTML = texts.ui?.tip5 || 'Reset if you make a mistake or want to try a new seed.';
+        if (dom.recommendedIconsTitle) dom.recommendedIconsTitle.textContent = texts.ui?.recommendedIcons || 'Recommended Icons to Place First:';
+        if (dom.supplementalIconsTitle) dom.supplementalIconsTitle.textContent = texts.ui?.supplementalIcons || 'Supplemental Icons:';
+        
+        // 快捷键模态框
+        if (dom.hotkeyModalTitle) dom.hotkeyModalTitle.textContent = texts.ui?.hotkeyModalTitle || 'Hotkey Settings';
+        if (dom.hotkeyModalSubtitle) dom.hotkeyModalSubtitle.textContent = texts.ui?.hotkeyModalSubtitle || 'Customize shortcuts for quick access everywhere.';
+        const closeBtn = document.getElementById('hotkey-modal-close');
+        if (closeBtn) closeBtn.setAttribute('aria-label', texts.ui?.closeHotkeySettings || 'Close hotkey settings');
+        if (dom.resetAllToDefaultText) dom.resetAllToDefaultText.textContent = texts.ui?.resetAllToDefault || 'Reset All to Default';
+        if (dom.closeText) dom.closeText.textContent = texts.ui?.close || 'Close';
+        if (dom.saveText) dom.saveText.textContent = texts.ui?.save || 'Save';
+      } catch (error) {
+        console.error('[finder:view] Error in updateTexts:', error);
+      }
     }
 
     function buildLocalePicker(onChange) {
